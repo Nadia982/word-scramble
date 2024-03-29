@@ -22,7 +22,9 @@ const initGame = () => {
     correctWord = randomObj.word.toLocaleLowerCase();
     inputField.value = "";
     inputField.setAttribute("Maxlength", correctWord.length )
-    console.log(randomObj);
+    message.innerHTML = "";
+    refreshBtn.classList.add("hide");
+    inputField.focus();
 }
 
 initGame();
@@ -31,18 +33,24 @@ const checkWord = () => {
     let userWord = inputField.value.toLocaleLowerCase();
     if(userWord.length < correctWord.length) {
         message.classList.add("incorrect");
-        message.innerHTML = `The word you entered is not long enough - please try again.`;
+        message.innerHTML = `The word you entered is not long enough - please try again!`;
+        inputField.value ="";
+        inputField.focus();
+        
     }
     else if(userWord !== correctWord) {
         message.classList.add("incorrect");
-        message.innerHTML = `The correct spelling is '${correctWord}'`;
+        message.innerHTML = `The correct spelling is '${correctWord}' - please try again!`;
+        inputField.value ="";
+        inputField.focus();
     }
     else{
         message.classList.remove("incorrect");
         message.classList.add("correct");
         message.innerHTML = `Well done - you spelled '${correctWord}' correctly.`;
+        refreshBtn.classList.remove("hide");
     } 
 }
 
-// refreshBtn.addEventListener("click", initGame);
+refreshBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);
