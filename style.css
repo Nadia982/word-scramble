@@ -83,6 +83,10 @@ height: 3rem;
     margin-top: 1rem;
 }
 
+.score-container {
+    font-weight: 600;
+}
+
 .content .end-container {
     display: flex;
     margin-top: 1rem;

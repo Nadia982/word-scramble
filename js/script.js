@@ -4,9 +4,10 @@ timeText = document.querySelector(".time b"),
 inputField = document.querySelector(".input"),
 refreshBtn = document.querySelector(".refresh-word"),
 checkBtn = document.querySelector(".check-word");
-message = document.querySelector(".message");
-
+let message = document.querySelector(".message");
+let scoreContainer = document.querySelector(".score-container"); 
 let correctWord, timer;
+let score = 0;
 
 const initGame = () => { 
     let randomObj = words [Math.floor(Math.random() * words.length)];
@@ -41,14 +42,16 @@ const checkWord = () => {
     else if(userWord !== correctWord) {
         message.classList.add("incorrect");
         message.innerHTML = `The correct spelling is '${correctWord}' - please try again!`;
-        inputField.value ="";
+        inputField.value ="";   
         inputField.focus();
     }
     else{
         message.classList.remove("incorrect");
         message.classList.add("correct");
-        message.innerHTML = `Well done - you spelled '${correctWord}' correctly.`;
+        message.innerHTML = `Well done - you spelt '${correctWord}' correctly.`;
         refreshBtn.classList.remove("hide");
+        score++;
+        scoreContainer.innerHTML = score;
     } 
 }
 
