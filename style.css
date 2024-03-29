@@ -49,9 +49,24 @@ details p {
     margin-bottom: 1rem;
 }
 
-.details .time {
-    float: right;
-    margin-bottom: .5rem;
+/* .details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 1rem 0; */
+    /* height: 2rem; */
+/* }  */
+
+.message {
+margin-top: 1rem;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: darkred;
 }
 
 .details p b{
@@ -67,13 +82,17 @@ details p {
     border: 1px solid #aaa;
 }
 
-.content .buttons {
+.time{
+    margin-top: 1rem;
+}
+
+.content .end-container {
     display: flex;
     margin-top: 1rem;
     justify-content: space-between;
 }
 
-.buttons button {
+.end-container button {
     border: none;
     outline: none;
     cursor: pointer;
@@ -83,12 +102,20 @@ details p {
     width: calc(100%/2-10px);    
 }
 
-.buttons .refresh-word {
+.end-container .refresh-word {
     background-color: thistle;
 }
 
-.buttons .check-word {
-    background-color: #82F8D2;
+.hide {
+    visibility: hidden;
 }
 
+.end-container .check-word {
+    background-color: #82F8D2;
+    border: 4px solid #fff; 
+}
+
+.check-word:focus{
+    outline: 3px solid #82F8D2;
+}
 

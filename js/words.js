@@ -23,11 +23,11 @@ hint: "when you are not remembering something, you are ______ it."
 },
 {
     word: "gardening",
-    hint: "this can include planting flowers and mowing the lawn"
+    hint: "an outdoor activity that can include planting flowers and mowing the lawn."
 },
 {
     word: "limiting",
-    hint: "setting boundaries or restrictions that control what you can do."
+    hint: "setting boundaries or restrictions that control what you can or can't do."
 },
 {
     word: "gym",
@@ -35,7 +35,7 @@ hint: "when you are not remembering something, you are ______ it."
 },
 {
     word: "myth",
-    hint: "an old story that might not be real but teaches important lessons."
+    hint: "a story, often from long ago, that might not be real but teaches important lessons."
 },
 {
     word: "mystery",
