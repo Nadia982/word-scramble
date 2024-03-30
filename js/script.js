@@ -12,6 +12,7 @@ let message = document.querySelector(".message");
 let scoreContainer = document.querySelector(".score-container"); 
 let correctWord, timer, wordDefinition;
 let score = 0;
+let emoji = document.querySelector(".emoji");
 
 //Initialise SpeechSynthesis API
 const synth = window.speechSynthesis;
@@ -98,6 +99,7 @@ const initGame = () => {
     inputField.value = "";
     inputField.setAttribute("Maxlength", correctWord.length )
     message.innerHTML = "";
+    emoji.innerHTML = "";
     refreshBtn.classList.add("hide");
     inputField.focus();
     speak(correctWord);
@@ -121,8 +123,13 @@ const checkWord = () => {
         inputField.focus();
     }
     else{
+        let emojis = ["&#128175", "&#127881", "&#127775", "&#129504", "&#128125", "&#128378", "&#128512", "&#128513", "&#128515", "&#128522", "&#128526", "&#129321", "&#129395", "&#128570", "&#128142", "&#128171", "&#9971", "&#128640", "&#128008", "&#129351", "&#127882", "&#128176"]
+        // emojisVisible = emojis.forEach((emoji) =>(<p>emoji</p>))
+        // console.log(emojisVisible);
+        let randomEmojiIndex = Math.floor(Math.random() * emojis.length) 
         message.classList.remove("incorrect");
         message.classList.add("correct");
+        emoji.innerHTML = `${emojis[randomEmojiIndex]}`
         message.innerHTML = `Well done - you spelt '${correctWord}' correctly!`;
         refreshBtn.classList.remove("hide");
         refreshBtn.focus();
