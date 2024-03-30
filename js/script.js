@@ -25,7 +25,6 @@ const initGame = () => {
     hintText.innerText = randomObj.definition;
     correctWord = randomObj.word.toLocaleLowerCase();
     wordDefinition = randomObj.definition.toLocaleLowerCase();
-    console.log(correctWord);
     inputField.value = "";
     inputField.setAttribute("Maxlength", correctWord.length )
     message.innerHTML = "";
@@ -98,17 +97,21 @@ if (synth.onvoiceschanged !== undefined) {
 const speak = (whatToSay) => {
   //Check if already speaking
   if (synth.speaking) {
+    // console.log(synth.speaking)
     console.error("Already speaking...");
     return;
   }
   if (correctWord !== "") {
     //Get text to speak
     const speakText = new SpeechSynthesisUtterance(whatToSay);
-
-    //Speak end
-    speakText.onend = (e) => {
-      console.log("Finished speaking");
-    };
+  
+    // speakText.onstart = (e) => {
+    //     console.log("Started speaking");
+    //   };
+    // //Speak end
+    // speakText.onend = (e) => {
+    //   console.log("Finished speaking");
+    // };
     //Speak error
     speakText.onerror = (e) => {
       console.error("Something went wrong");
