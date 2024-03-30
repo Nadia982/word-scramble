@@ -180,3 +180,10 @@ body {
     margin: 0 0 1rem;
     max-width: 75vw;
 }
+
+@media only screen and (max-width: 500px) {
+    .container{
+    width: 375px; 
+    }
+    
+}
