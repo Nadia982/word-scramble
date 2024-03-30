@@ -48,7 +48,7 @@ const checkWord = () => {
     else{
         message.classList.remove("incorrect");
         message.classList.add("correct");
-        message.innerHTML = `Well done - you spelt '${correctWord}' correctly.`;
+        message.innerHTML = `Well done - you spelt '${correctWord}' correctly!`;
         refreshBtn.classList.remove("hide");
         score++;
         scoreContainer.innerHTML = score;

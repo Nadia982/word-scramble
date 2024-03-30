@@ -65,10 +65,147 @@ hint: "when you are not remembering something, you are ______ it."
     word: "rhythm",
     hint: "a pattern of beats or sounds that repeat in music or poetry."
 },
+{
+    word: "young",
+    hint: "antonym of 'old'"
+},
 
+{
+    word: "double",
+    hint: "twice as much or having two of something."
+},
+
+{
+    word: "country",
+    hint: "a place where people live, with its own government, land, and culture."
+},
+{
+    word: "encourage",
+    hint: "to give support or praise to someone to help them feel confident and motivated."
+},
+
+{
+    word: "borough",
+    hint: "a small town or district within a larger city, like a neighborhood with its own identity."
+},
+{
+    word: "enormous",
+    hint: "exceptionally large, like a colossal mountain or immense skyscraper."
+},
+{
+    word: "enough",
+    hint: "a sufficient amount."
+},
+
+{
+    word: "tough",
+    hint: "hard to do or endure, like a challenge that requires strength, effort, or resilience."
+},
+
+{
+    word: "colour",
+    hint: "a shade, hue or tint such as red, blue or green."
+},
+
+{
+    word: "favour",
+    hint: "an act of kindness or help shown to someone, like doing a task that someone has asked you to do."
+},
+
+{
+    word: "flavour",
+    hint: "the taste of something, like sweetness, sourness, or spiciness, making food enjoyable."
+},
+
+{
+    word: "humour",
+    hint: "a funny or amusing quality that makes people laugh or smile, found in jokes or situations."
+},
 
 // {
-//     word: "",
+//     word: "information",
+//     hint: ""
+// },
+
+// {
+//     word: "preparation",
+//     hint: ""
+// },
+
+// {
+//     word: "admiration",
+//     hint: ""
+// },
+
+// {
+//     word: "transportation",
+//     hint: ""
+// },
+
+// {
+//     word: "adoration",
+//     hint: ""
+// },
+
+// {
+//     word: "action",
+//     hint: ""
+// },
+
+// {
+//     word: "reaction",
+//     hint: ""
+// },
+// {
+//     word: "fiction",
+//     hint: ""
+// },
+// {
+//     word: "solution",
+//     hint: ""
+// },
+// {
+//     word: "conclusion",
+//     hint: ""
+// },
+// {
+//     word: "invention",
+//     hint: ""
+// },
+// {
+//     word: "decision",
+//     hint: ""
+// },
+// {
+//     word: "direction",
+//     hint: ""
+// },
+// {
+//     word: "pollution",
+//     hint: ""
+// },
+// {
+//     word: "exploration",
+//     hint: ""
+// },
+// {
+//     word: "admission",
+//     hint: ""
+// },
+// {
+//     word: "expansion",
+//     hint: ""
+// },
+// {
+//     word: "construction",
+//     hint: ""
+// },
+// {
+//     word: "emotion",
+//     hint: ""
+// },
+// {
+//     word: "communication",
 //     hint: ""
 // },
 
