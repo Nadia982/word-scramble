@@ -7,8 +7,7 @@
 
 :root {
     --check-word-color: #85FF9E;
-    --read-word-color: #90E0EF;
-    /* #82F8D2; */
+    --read-word-color: #b2eaf4;
   }
 
 body {
@@ -17,6 +16,10 @@ body {
   justify-content: center;
   min-height: 100vh;
   background-color: #90E0EF;
+}
+
+#voice-select {
+    display: none;
 }
 
 .container {
