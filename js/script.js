@@ -13,56 +13,6 @@ let scoreContainer = document.querySelector(".score-container");
 let correctWord, timer, wordDefinition;
 let score = 0;
 
-const initGame = () => { 
-    
-    let randomObj = words [Math.floor(Math.random() * words.length)];
-    let wordArray = randomObj.word.split("");
-    for(let i=wordArray.length-1; i>0; i--) {
-        let j = Math.floor(Math.random() * (i+1));
-        [wordArray[i], wordArray[j]] = [wordArray[j], wordArray[i]]
-    }
-    wordText.innerText = wordArray.join("");
-    hintText.innerText = randomObj.definition;
-    correctWord = randomObj.word.toLocaleLowerCase();
-    wordDefinition = randomObj.definition.toLocaleLowerCase();
-    inputField.value = "";
-    inputField.setAttribute("Maxlength", correctWord.length )
-    message.innerHTML = "";
-    refreshBtn.classList.add("hide");
-    inputField.focus();
-}
-
-initGame();
-
-const checkWord = () => {
-    let userWord = inputField.value.toLocaleLowerCase();
-    if(userWord.length < correctWord.length) {
-        message.classList.add("incorrect");
-        message.innerHTML = `The word you entered is not long enough - please try again!`;
-        inputField.value ="";
-        inputField.focus();
-        
-    }
-    else if(userWord !== correctWord) {
-        message.classList.add("incorrect");
-        message.innerHTML = `The correct spelling is '${correctWord}' - please try again!`;
-        inputField.value ="";   
-        inputField.focus();
-    }
-    else{
-        message.classList.remove("incorrect");
-        message.classList.add("correct");
-        message.innerHTML = `Well done - you spelt '${correctWord}' correctly!`;
-        refreshBtn.classList.remove("hide");
-        refreshBtn.focus();
-        score++;
-        scoreContainer.innerHTML = score;
-    } 
-}
-
-refreshBtn.addEventListener("click", initGame);
-checkBtn.addEventListener("click", checkWord);
-
 //Initialise SpeechSynthesis API
 const synth = window.speechSynthesis;
 
@@ -97,7 +47,6 @@ if (synth.onvoiceschanged !== undefined) {
 const speak = (whatToSay) => {
   //Check if already speaking
   if (synth.speaking) {
-    // console.log(synth.speaking)
     console.error("Already speaking...");
     return;
   }
@@ -133,3 +82,55 @@ readWordBtn.addEventListener("click", (e) => {
 readDefBtn.addEventListener("click", (e) => {
     speak(wordDefinition);
   });
+
+const initGame = () => { 
+    
+    let randomObj = words [Math.floor(Math.random() * words.length)];
+    let wordArray = randomObj.word.split("");
+    for(let i=wordArray.length-1; i>0; i--) {
+        let j = Math.floor(Math.random() * (i+1));
+        [wordArray[i], wordArray[j]] = [wordArray[j], wordArray[i]]
+    }
+    wordText.innerText = wordArray.join("");
+    hintText.innerText = randomObj.definition;
+    correctWord = randomObj.word.toLocaleLowerCase();
+    wordDefinition = randomObj.definition.toLocaleLowerCase();
+    inputField.value = "";
+    inputField.setAttribute("Maxlength", correctWord.length )
+    message.innerHTML = "";
+    refreshBtn.classList.add("hide");
+    inputField.focus();
+    speak(correctWord);
+}
+
+initGame();
+
+const checkWord = () => {
+    let userWord = inputField.value.toLocaleLowerCase();
+    if(userWord.length < correctWord.length) {
+        message.classList.add("incorrect");
+        message.innerHTML = `The word you entered is not long enough - please try again!`;
+        inputField.value ="";
+        inputField.focus();
+        
+    }
+    else if(userWord !== correctWord) {
+        message.classList.add("incorrect");
+        message.innerHTML = `The correct spelling is '${correctWord}' - please try again!`;
+        inputField.value ="";   
+        inputField.focus();
+    }
+    else{
+        message.classList.remove("incorrect");
+        message.classList.add("correct");
+        message.innerHTML = `Well done - you spelt '${correctWord}' correctly!`;
+        refreshBtn.classList.remove("hide");
+        refreshBtn.focus();
+        score++;
+        scoreContainer.innerHTML = score;
+    } 
+}
+
+refreshBtn.addEventListener("click", initGame);
+checkBtn.addEventListener("click", checkWord);
+
