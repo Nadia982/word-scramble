@@ -5,6 +5,12 @@
   font-family: Tahoma, sans-serif;
 }
 
+:root {
+    --check-word-color: #85FF9E;
+    --read-word-color: #90E0EF;
+    /* #82F8D2; */
+  }
+
 body {
   display: flex;
   align-items: center;
@@ -31,7 +37,35 @@ body {
     margin: 0 1rem 2rem;
 }
 
-.content .word {
+.top-button-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+#read-word-btn, #read-definition-btn {
+    align-items: center;
+    background-color: var(--read-word-color);    
+    border: 4px solid #fff;
+    border-radius: 1rem;
+    color: #000;
+    cursor: pointer;
+    display: flex;
+    flex: 1 0 10vw;
+    font-size: 1.1rem;
+    gap: 0.7rem;
+    justify-content: center;
+    min-height: 3rem;       
+    padding: 0.7rem 1rem;
+    text-align: center;
+  }
+
+  #read-word-btn:focus, #read-definition-btn:focus {
+    outline: 3px solid var(--read-word-color);
+  }
+
+.word {
     margin-top: 0.5rem;
  font-size: 2rem;
  font-weight: 500;
@@ -40,7 +74,7 @@ body {
  text-transform: uppercase;   
 }
 
-.content .details {
+.details {
     margin: 1rem 0;
 }
 
@@ -56,6 +90,8 @@ body {
 
 .message {
 height: 3rem;
+font-weight: 600;
+text-align: center;
 }
 
 .correct {
@@ -87,18 +123,21 @@ height: 3rem;
     font-weight: 600;
 }
 
-.content .end-container {
+.end-container {
     display: flex;
     margin-top: 1rem;
     justify-content: space-between;
+    gap: 2rem;  
 }
 
 .end-container button {  
     cursor: pointer;
     padding: 1rem 1.5rem;
     font-size: 1.1rem;
-    border-radius: 1rem;
-    width: calc(100%/2-10px);    
+    border-radius: 1rem;    
+    flex: 1 0 10vw;
+    font-weight: 600;
+    border: 4px solid #fff;
 }
 
 .hide {
@@ -107,20 +146,18 @@ height: 3rem;
 
 .refresh-word {
     background-color: thistle;
-    border: 4px solid #fff;
+    
 }
 
 .refresh-word:focus{
     outline: 3px solid thistle;
 }
 
-
-.end-container .check-word {
-    background-color: #82F8D2;
-    border: 4px solid #fff; 
+.check-word {
+    background-color: var(--check-word-color);
 }
 
 .check-word:focus{
-    outline: 3px solid #82F8D2;
+    outline: 3px solid var(--check-word-color);
 }
 

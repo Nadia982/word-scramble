@@ -12,6 +12,15 @@
     <div class="container">
       <h2>Word Scramble</h2>
       <div class="content">
+        <div class="top-button-container">
+          <button id="read-word-btn" class="btn">
+            <img width="30" src="./images/speaker.png" alt="" /> Read word
+          </button>
+          <button id="read-definition-btn" class="btn">
+            <img width="30" src="./images/speaker.png" alt="" /> Read
+            definition
+          </button>
+        </div>
         <p class="word"></p>
         <div class="details">
           <p class="hint">Hint: <span></span></p>
@@ -19,19 +28,24 @@
             <p class="message"></p>
           </div>
         </div>
-        <input class="input" type="text" placeholder="Type the correctly spelt word here" />
+        <input
+          class="input"
+          type="text"
+          placeholder="Type the correctly spelt word here"
+        />
         <div class="end-container">
-<p>Words spelt correctly this session: <span class="score-container"></span></p>
-        
-            <!-- <p class="time">
+          <p>
+            Words spelt correctly this session:
+            <span class="score-container"></span>
+          </p>
+
+          <!-- <p class="time">
                 Time left: <span><b>30</b></span>
               </p> -->
-
-            </div>
-          <div class="end-container">
-            <button class="check-word">Check word</button>
-            <button class="refresh-word hide">New word</button>
-            
+        </div>
+        <div class="end-container">
+          <button class="check-word">Check word</button>
+          <button class="refresh-word hide">New word</button>
         </div>
       </div>
     </div>
