@@ -421,4 +421,9 @@ const words = [
     definition:
       "A machine or device that works by itself without needing to be operated manually by a person.",
   },
+  {
+    word: "attraction",
+    definition:
+      "It's when you're drawn to something or someone because they're interesting or appealing.",
+  },
 ];
