@@ -431,5 +431,10 @@ const words = [
     definition:
       "To use or eat something until it's all gone or finished.",
   },
+  {
+    word: "homeless",
+    definition:
+      "Someone who doesn't have a place to live.",
+  },
 
 ];
