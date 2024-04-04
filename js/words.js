@@ -436,5 +436,30 @@ const words = [
     definition:
       "Someone who doesn't have a place to live.",
   },
+  {
+    word: "breathe",
+    definition:
+      "A verb meaning to inhale and exhale.",
+  },
+  {
+    word: "breath",
+    definition:
+      "Noun: the air/vapour that comes out of your mouth when you exhale.",
+  },
+  {
+    word: "valley",
+    definition:
+      "The low land between two mountains.",
+  },
+  {
+    word: "visitors",
+    definition:
+      "People who go to or stay in a place temporarily, perhaps while they are on holiday.",
+  },
+  {
+    word: "battling",
+    definition:
+      "Fighting against something.",
+  },
 
 ];
