@@ -461,5 +461,33 @@ const words = [
     definition:
       "Fighting against something.",
   },
+  {
+    word: "completely",
+    definition:
+      "Adverb meaning 'entirely' or 'fully'.",
+  },
+  {
+    word: "finally",
+    definition:
+      "Adverb. Something that happens 'at last' or after a long time of waiting.",
+  }, 
+  {
+    word: "exactly",
+    definition:
+      "Adverb. Precisely correct or in complete agreement with a statement.",
+  }, 
+  {
+    word: "clearly",
+    definition:
+      "Adverb. Easily understood or without doubt, making it obvious and easy to perceive or comprehend.",
+  }, 
+  {
+    word: "eagerly",
+    definition:
+      "Adverb. Excitedly anticipating or looking forward to something with enthusiasm.",
+  }, 
 
+  
+
+//
 ];
