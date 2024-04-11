@@ -549,4 +549,10 @@ const words = [
     definition:
       "Adverb. Excitedly anticipating or looking forward to something with enthusiasm.",
   }, 
+  {id: 100,
+    word: "treasure",
+    definition:
+      "Noun. Something valuable or cherished; sometimes hidden away in a wooden chest.",
+      spelling_rule: "44"
+  }, 
 ];
