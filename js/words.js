@@ -555,4 +555,10 @@ const words = [
       "Noun. Something valuable or cherished; sometimes hidden away in a wooden chest.",
       spelling_rule: "44"
   }, 
+  {id: 101,
+    word: "pleasure",
+    definition:
+      "Noun. A feeling of enjoyment or satisfaction.",
+      spelling_rule: "44"
+  }, 
 ];
