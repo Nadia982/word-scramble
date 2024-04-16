@@ -2210,14 +2210,14 @@ const words = [
     id: 337,
     word: "principal",
     definition:
-      "Meaning 1. Adjective: most important (e.g. principal ballerina). Meaning 2. noun: important person (e.g. principal of a college).",
+      "Meaning 1. Adjective: most important (e.g. _______ ballerina). Meaning 2. noun: important person (e.g. _______ of a college).",
     spelling_rule: 61,
   },
   {
     id: 338,
     word: "serial",
     definition:
-      'Adjective. Comes from the noun "series" – a succession of things one after the other.',
+      'Adjective. Comes from the noun "series" - a succession of things one after the other.',
     spelling_rule: 61,
   },
   {
@@ -2243,7 +2243,7 @@ const words = [
   {
     id: 342,
     word: "dissent",
-    definition: "Verb meaning ‘to disagree’, or noun meaning ‘disagreement’",
+    definition: "Verb meaning 'to disagree', or noun meaning 'disagreement'",
     spelling_rule: 61,
   },
   {
@@ -2255,7 +2255,7 @@ const words = [
   },
   {
     id: 344,
-    word: "who’s",
+    word: "who's",
     definition: 'Contraction of "who is" or "who has". ',
     spelling_rule: 61,
   },
@@ -2349,7 +2349,7 @@ const words = [
   {
     id: 360,
     word: "passed",
-    definition: "Verb. Past tense of the verb ‘pass’.",
+    definition: "Verb. Past tense of the verb 'pass'.",
     spelling_rule: 61,
   },
   {
@@ -2463,7 +2463,7 @@ const words = [
   {
     id: 378,
     word: "effect",
-    definition: "Usually a noun. If used as a verb, it means ‘bring about’.",
+    definition: "Usually a noun. If used as a verb, it means 'bring about'.",
     spelling_rule: 61,
   },
   {
@@ -2760,7 +2760,7 @@ const words = [
   },
   {
     id: 421,
-    word: "he’ll",
+    word: "he'll",
     definition:
       "Pronoun. He will or he shall, indicating a future action or state of being.",
     spelling_rule: 61,
