@@ -97,15 +97,29 @@ const initGame = () => {
     correctWord = randomObj.word.toLocaleLowerCase();
     wordDefinition = randomObj.definition.toLocaleLowerCase();
     inputField.value = "";
-    inputField.setAttribute("Maxlength", correctWord.length )
+    inputField.setAttribute("Maxlength", correctWord.length+5 )
     message.innerHTML = "";
     emoji.innerHTML = "";
     refreshBtn.classList.add("hide");
     inputField.focus();
+    checkBtn.classList.remove("hide");
     speak(correctWord);
+    setTimeout(()=>{speak(wordDefinition)}, 2000);
+//speak definition
+inputField.addEventListener("input", function(){
+  if (inputField.value.length > correctWord.length) {
+  message.innerHTML = `The word contains only ${correctWord.length} letters`;
+}
+else if (inputField.value.length <= correctWord.length) {
+  message.innerHTML = ``;
+}
+}); 
 }
 
+console.log(inputField.value); 
+
 initGame();
+
 
 const checkWord = () => {
     let userWord = inputField.value.toLocaleLowerCase();
@@ -113,12 +127,17 @@ const checkWord = () => {
         message.classList.add("incorrect");
         message.innerHTML = `The word you entered is not long enough - please try again!`;
         inputField.value ="";
-        inputField.focus();
-        
+        inputField.focus();        
     }
+    else if(userWord.length > correctWord.length) {
+      message.classList.add("incorrect");
+      message.innerHTML = `The word you entered is too long - please try again!`;
+      inputField.value ="";
+      inputField.focus();
+  }
     else if(userWord !== correctWord) {
         message.classList.add("incorrect");
-        message.innerHTML = `The correct spelling is '${correctWord}' - please try again!`;
+        message.innerHTML = `Not quite - please try again!`;
         inputField.value ="";   
         inputField.focus();
     }
@@ -135,6 +154,7 @@ const checkWord = () => {
         refreshBtn.focus();
         score++;
         scoreContainer.innerHTML = score;
+        checkBtn.classList.add("hide");
     } 
 }
 

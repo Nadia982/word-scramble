@@ -465,7 +465,7 @@ const words = [
     id: 81,
     word: "antiseptic",
     definition:
-      "A substance that kills germs and prevents infection when applied to cuts, wounds, or other injuries.",
+      "A substance that kills germs and prevents infection.",
   },
   {
     id: 82,
@@ -865,14 +865,14 @@ const words = [
     id: 143,
     word: "impression",
     definition:
-      "Noun. The feeling or idea you leave on someone, like when you make a good first impression.",
+      "Noun. The impact or effect that someone or something leaves on others.",
     spelling_rule: 47,
   },
   {
     id: 144,
     word: "omission",
     definition:
-      "Noun. Something left out or not included, like forgetting to mention your favorite book in a list.",
+      "Noun. Something that is left out or not included.",
     spelling_rule: 47,
   },
   {
@@ -1040,21 +1040,21 @@ const words = [
     id: 168,
     word: "cylinder",
     definition:
-      "Noun. A shape like a tube, like a can of soda or the inside of a roll of paper towels.",
+      "Noun. A 3D shape that two parallel circular bases of equal size, connected by a curved surface",
     spelling_rule: 49,
   },
   {
     id: 169,
     word: "chef",
     definition:
-      "Noun. A professional cook who prepares food in a restaurant, like the person who makes your favorite pizza.",
+      "Noun. A professional cook who prepares food in a restaurant.",
     spelling_rule: 49,
   },
   {
     id: 170,
     word: "brochure",
     definition:
-      "Noun. A small booklet with information or pictures, like a brochure about a vacation destination.",
+      "Noun. A small booklet with information or pictures, often used to sell products or services.",
     spelling_rule: 49,
   },
   {
@@ -1101,9 +1101,9 @@ const words = [
   },
   {
     id: 177,
-    word: "league ",
+    word: "league",
     definition:
-      "Noun. A group or association of teams or individuals, like a sports league or gaming league.",
+      "Noun. A group or association of teams or individuals, often related to sports.",
     spelling_rule: 50,
   },
   {
@@ -1117,7 +1117,7 @@ const words = [
     id: 179,
     word: "plaque",
     definition:
-      "Noun. A flat, usually decorative, piece attached to a wall or monument, like a commemorative plaque.",
+      "Noun. A flat sheet of metal containing descriptive or informative writing that is often attached to a wall or monument.",
     spelling_rule: 50,
   },
   {
@@ -1131,7 +1131,7 @@ const words = [
     id: 181,
     word: "catalogue",
     definition:
-      "Noun. A list or collection of items, like the one you receive from your favorite store.",
+      "Noun. A list or collection of items, for instance, a list of all the products being sold by a shop.",
     spelling_rule: 50,
   },
   {
@@ -1200,7 +1200,7 @@ const words = [
     id: 191,
     word: "descend",
     definition:
-      "Verb. To move downward, like when an airplane descends before landing.",
+      "Verb. To move downward, like when an airplane flies lower and lower before landing.",
     spelling_rule: 51,
   },
   {
@@ -1221,7 +1221,7 @@ const words = [
     id: 194,
     word: "crescent",
     definition:
-      "Noun. A curved shape resembling a thin, crescent moon, like the one on a flag.",
+      "Noun. A curved shape resembling a thin moon, seen on the flags of many countries.",
     spelling_rule: 51,
   },
   {
@@ -1235,21 +1235,21 @@ const words = [
     id: 196,
     word: "weigh",
     definition:
-      "Verb. To measure the heaviness of something, like weighing fruit at the grocery store.",
+      "Verb. To measure the heaviness of something.",
     spelling_rule: 52,
   },
   {
     id: 197,
     word: "eight",
     definition:
-      "Noun. The number after seven, like when counting the days of the week.",
+      "Noun. The number after seven.",
     spelling_rule: 52,
   },
   {
     id: 198,
     word: "neighbour",
     definition:
-      "Noun. Someone who lives near you, like a person in the house next door.",
+      "Noun. Someone who lives near you.",
     spelling_rule: 52,
   },
   {
@@ -1263,7 +1263,7 @@ const words = [
     id: 200,
     word: "reign",
     definition:
-      "Noun. The period of time during which a ruler or monarch holds power, like a king's reign.",
+      "Noun. The period of time during which a ruler or monarch holds power.",
     spelling_rule: 52,
   },
   {
@@ -1284,7 +1284,7 @@ const words = [
     id: 203,
     word: "precious",
     definition:
-      "Adjective. Highly valued or treasured, like a precious gemstone passed down in the family.",
+      "Adjective. Highly valued or treasured.",
     spelling_rule: 53,
   },
   {
@@ -1298,7 +1298,7 @@ const words = [
     id: 205,
     word: "delicious",
     definition:
-      "Adjective. Very enjoyable to taste, like a mouthwatering slice of pizza or a delicious chocolate cake.",
+      "Adjective. Very enjoyable to taste, like a mouthwatering slice of pizza.",
     spelling_rule: 53,
   },
   {
@@ -1382,7 +1382,7 @@ const words = [
     id: 217,
     word: "initial",
     definition:
-      "Adjective. Relating to the beginning or first stage, like the initial steps in a project or plan.",
+      "Adjective. Relating to the beginning or first stage.",
     spelling_rule: 54,
   },
   {
@@ -1452,7 +1452,7 @@ const words = [
     id: 227,
     word: "hesitancy",
     definition:
-      "Noun. The state of feeling unsure or reluctant, like feeling hesitancy about speaking in front of a crowd.",
+      "Noun. The state of feeling unsure or reluctant.",
     spelling_rule: 55,
   },
   {
@@ -1590,7 +1590,7 @@ const words = [
     id: 248,
     word: "adorably",
     definition:
-      "Adverb. In a very cute or lovable manner, like a kitten sleeping adorably curled up on a cushion.",
+      "Adverb. In a cute or lovable manner.",
     spelling_rule: 56,
   },
   {
@@ -1737,77 +1737,77 @@ const words = [
     id: 269,
     word: "horrible",
     definition:
-      "Adjective. Extremely unpleasant or dreadful, like experiencing a horrible nightmare in the middle of the night.",
+      "Adjective. Dreadful or extremely unpleasant.",
     spelling_rule: 56,
   },
   {
     id: 270,
     word: "horribly",
     definition:
-      "Adverb. In an extremely unpleasant manner, like feeling horribly sick after eating too much candy.",
+      "Adverb. In an extremely unpleasant manner.",
     spelling_rule: 56,
   },
   {
     id: 271,
     word: "terrible",
     definition:
-      "Adjective. Very bad or unpleasant, like enduring terrible weather during a camping trip.",
+      "Adjective. Very bad or unpleasant.",
     spelling_rule: 56,
   },
   {
     id: 272,
     word: "terribly",
     definition:
-      "Adverb. In a very bad or unpleasant manner, like feeling terribly embarrassed after tripping in public.",
+      "Adverb. In a very bad or unpleasant manner.",
     spelling_rule: 56,
   },
   {
     id: 273,
     word: "visible",
     definition:
-      "Adjective. Able to be seen, like the visible stars twinkling in the night sky above.",
+      "Adjective. Capable of being seen.",
     spelling_rule: 56,
   },
   {
     id: 274,
     word: "visibly",
     definition:
-      "Adverb. In a way that can be seen, like the smile spreading visibly across her face.",
+      "Adverb. In a way that can be seen.",
     spelling_rule: 56,
   },
   {
     id: 275,
     word: "incredible",
     definition:
-      "Adjective. Unbelievable or extraordinary, like witnessing an incredible magic trick that defies explanation.",
+      "Adjective. Unbelievable or extraordinary.",
     spelling_rule: 56,
   },
   {
     id: 276,
     word: "incredibly",
     definition:
-      "Adverb. In an unbelievable or extraordinary manner, like incredibly finishing the race in record time.",
+      "Adverb. In an unbelievable or extraordinary manner.",
     spelling_rule: 56,
   },
   {
     id: 277,
     word: "referring",
     definition:
-      "Verb. Mentioning or bringing up something, like referring to a passage in a book during discussion.",
+      "Verb. Mentioning or bringing up something.",
     spelling_rule: 57,
   },
   {
     id: 278,
     word: "referred",
     definition:
-      "Verb. Mentioned or brought up something, like someone referred to an expert for advice.",
+      "Verb. Mentioned or brought up something.",
     spelling_rule: 57,
   },
   {
     id: 279,
     word: "referral",
     definition:
-      "Noun. The act of recommending or suggesting, like making a referral to a specialist for further evaluation.",
+      "Noun. The act of recommending or suggesting.",
     spelling_rule: 57,
   },
   {
@@ -1842,14 +1842,14 @@ const words = [
     id: 284,
     word: "referee",
     definition:
-      "Noun. An official who ensures fair play, like a referee in a soccer match making calls.",
+      "Noun. An official who ensures fair play, especially at a sports game or match.",
     spelling_rule: 57,
   },
   {
     id: 285,
     word: "transference",
     definition:
-      "Noun. The act of transferring something from one place to another, like the transference of energy.",
+      "Noun. The act of transferring something from one place to another.",
     spelling_rule: 57,
   },
   {
@@ -1870,7 +1870,7 @@ const words = [
     id: 288,
     word: "perceive",
     definition:
-      "Verb. To become aware of or understand, like perceiving the beauty of nature during a hike.",
+      "Verb. To become aware of or understand.",
     spelling_rule: 58,
   },
   {
@@ -1968,91 +1968,91 @@ const words = [
     id: 302,
     word: "though",
     definition:
-      "Conjunction. Despite the fact that, like going to the beach though it's cloudy.",
+      "Conjunction meaning 'despite the fact that'",
     spelling_rule: 59,
   },
   {
     id: 303,
     word: "although",
     definition:
-      "Conjunction. Even though or despite the fact that, like having fun although it's raining outside.",
+      "Conjunction meaning 'despite the fact that'",
     spelling_rule: 59,
   },
   {
     id: 304,
     word: "through",
     definition:
-      "Preposition. Moving in one side and out the other, like walking through a tunnel to the other side.",
+      "Meaning 1: a preposition meaning movement from one side to another. Meaning 2: a conjunction meaning 'as a result of'",
     spelling_rule: 59,
   },
   {
     id: 305,
     word: "borough",
     definition:
-      "Noun. A district or neighborhood within a city, like living in the Brooklyn borough of New York.",
+      "Noun. A district or neighborhood within a city.",
     spelling_rule: 59,
   },
   {
     id: 306,
     word: "plough",
     definition:
-      "Noun. A tool used for breaking up soil, like plowing the fields before planting crops.",
+      "Noun. A tool used for breaking up soil before planting crops.",
     spelling_rule: 59,
   },
   {
     id: 307,
     word: "bough",
     definition:
-      "Noun. A branch or limb of a tree, like hanging a swing from a sturdy bough.",
+      "Noun. A branch or limb of a tree.",
     spelling_rule: 59,
   },
   {
     id: 308,
     word: "breakthrough",
     definition:
-      "Noun. A significant discovery or achievement, like making a breakthrough in scientific research.",
+      "Noun. A significant discovery or achievement.",
     spelling_rule: 59,
   },
   {
     id: 309,
     word: "toughest",
     definition:
-      "Adjective. The most challenging or difficult, like facing the toughest opponent in a sports competition.",
+      "Adjective. The most challenging or difficult.",
     spelling_rule: 59,
   },
   {
     id: 310,
     word: "doubt",
     definition:
-      "Noun. A feeling of uncertainty or lack of conviction, like having doubt about the answer to a question.",
+      "Noun. A feeling of uncertainty.",
     spelling_rule: 60,
   },
   {
     id: 311,
     word: "island",
     definition:
-      "Noun. A piece of land surrounded by water, like dreaming of living on a tropical island.",
+      "Noun. A piece of land surrounded by water.",
     spelling_rule: 60,
   },
   {
     id: 312,
     word: "solemn",
     definition:
-      "Adjective. Serious or solemn in manner, like observing a solemn ceremony with respect.",
+      "Adjective. Serious and sincere; the opposite of 'light-hearted'.",
     spelling_rule: 60,
   },
   {
     id: 313,
     word: "thistle",
     definition:
-      "Noun. A prickly plant with purple flowers, like avoiding stepping on a thistle in the garden.",
+      "Noun. A prickly plant with purple flowers.",
     spelling_rule: 60,
   },
   {
     id: 314,
     word: "knight",
     definition:
-      "Noun. A medieval warrior of noble birth, like imagining a knight in shining armor.",
+      "Noun. A medieval warrior of noble birth.",
     spelling_rule: 60,
   },
   {
@@ -2143,7 +2143,7 @@ const words = [
     id: 327,
     word: "salmon",
     definition:
-      "Noun. A type of fish often caught for food, like grilling fresh salmon for dinner.",
+      "Noun. A type of fish with pink flesh that is often caught for food.",
     spelling_rule: 60,
   },
   {
