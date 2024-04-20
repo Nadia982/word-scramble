@@ -8,7 +8,8 @@ const wordText = document.querySelector(".word"),
   voiceSelect = document.querySelector("#voice-select"),
   body = document.querySelector("body"),
   checkBtn = document.querySelector(".check-word"),
-  form = document.getElementById("form");
+  form = document.getElementById("form"), 
+  homophone = document.querySelector(".homophone");
 let message = document.querySelector(".message");
 let scoreContainer = document.querySelector(".score-container");
 let correctWord, timer, wordDefinition;
@@ -86,7 +87,6 @@ readDefBtn.addEventListener("click", (e) => {
 });
 
 const initGame = () => {
-  synth.cancel();
   let randomObj = words[Math.floor(Math.random() * words.length)];
   let wordArray = randomObj.word.split("");
   for (let i = wordArray.length - 1; i > 0; i--) {
@@ -95,8 +95,10 @@ const initGame = () => {
   }
   wordText.innerText = wordArray.join("");
   hintText.innerText = randomObj.definition;
-  correctWord = randomObj.word.toLocaleLowerCase();
-  wordDefinition = randomObj.definition.toLocaleLowerCase();
+  correctWord = randomObj.word;
+  wordDefinition = randomObj.definition;
+  // correctWord = randomObj.word.toLocaleLowerCase();
+  // wordDefinition = randomObj.definition.toLocaleLowerCase();
   inputField.value = "";
   inputField.setAttribute("Maxlength", correctWord.length + 5);
   message.innerHTML = "";
@@ -104,11 +106,19 @@ const initGame = () => {
   newWordBtn.classList.add("hide");
   inputField.focus();
   checkBtn.classList.remove("hide");
+  if (randomObj.spelling_rule === 61){
+    homophone.innerHTML = `This word is a homophone`;
+    homophone.classList.add("highlight");
+  } else {
+    homophone.innerHTML = ``;
+    homophone.classList.remove("highlight");
+  }
 
   setTimeout(() => {
     speak(correctWord);
   }, 500);
   //speak definition
+
   if (correctWord.length < 6) {
     setTimeout(() => {
       speak(wordDefinition);
@@ -124,11 +134,6 @@ const initGame = () => {
   }
 };
 
-// inputField.addEventListener("input", function () {
-//   if (inputField.value.length < 3) {
-//     e.preventDefault();
-//   }
-// });
 
 inputField.addEventListener("input", function () {
   if (inputField.value.length > correctWord.length) {
@@ -142,7 +147,9 @@ inputField.addEventListener("input", function () {
 initGame();
 
 const checkWord = () => {
-  let userWord = inputField.value.toLocaleLowerCase();
+  synth.cancel();
+  let userWord = inputField.value;
+  // let userWord = inputField.value.toLocaleLowerCase();
   if (userWord.length < correctWord.length) {
     message.classList.add("incorrect");
     message.innerHTML = `The word you entered is not long enough - please try again!`;
