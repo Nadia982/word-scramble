@@ -164,11 +164,11 @@ body {
   visibility: hidden;
 }
 
-.refresh-word {
+.new-word {
   background-color: thistle;
 }
 
-.refresh-word:focus {
+.new-word:focus {
   outline: 3px solid thistle;
 }
 

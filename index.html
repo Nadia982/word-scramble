@@ -41,7 +41,7 @@
             <p class="message"></p>
           </div>
         </div>
-        <form autocomplete="off">
+        <form id="form" autocomplete="off" onkeydown="return processKey(event)" >
         
           <input autocomplete="false"
           class="input"
@@ -61,7 +61,7 @@
         </div>
         <div class="end-container">
           <button class="check-word">Check word</button>
-          <button class="refresh-word hide">New word</button>
+          <button class="new-word hide">New word</button>
         </div>
         
       </div>
