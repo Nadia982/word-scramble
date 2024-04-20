@@ -669,7 +669,7 @@ const words = [
     id: 115,
     word: "collision",
     definition:
-      "Noun. A violent impact or collision between two or more objects or entities.",
+      "Noun. A crash or impact between two or more objects.",
     spelling_rule: 45,
   },
   {
