@@ -126,7 +126,7 @@ const initGame = () => {
   } else if (correctWord.length < 9) {
     setTimeout(() => {
       speak(wordDefinition);
-    }, 2300);
+    }, 2400);
   } else {
     setTimeout(() => {
       speak(wordDefinition);

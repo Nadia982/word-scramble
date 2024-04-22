@@ -1653,84 +1653,84 @@ const words = [
     id: 257,
     word: "changeable",
     definition:
-      "Adjective. Prone to change or variation, like the changeable weather in springtime.",
+      "Adjective. Variable, like the weather in springtime.",
     spelling_rule: 56,
   },
   {
     id: 258,
     word: "noticeable",
     definition:
-      "Adjective. Easily seen or noticed, like the noticeable smell of freshly baked cookies in the kitchen.",
+      "Adjective. Easily seen or noticed.",
     spelling_rule: 56,
   },
   {
     id: 259,
     word: "forcible",
     definition:
-      "Adjective. Having the power to force or compel, like a strong wind forcibly pushing against the door.",
+      "Adjective. A synonym of 'strong' or forceful'",
     spelling_rule: 56,
   },
   {
     id: 260,
     word: "legible",
     definition:
-      "Adjective. Clear enough to be read easily, like having legible handwriting that everyone can understand.",
+      "Adjective. Written clearly enough to be read easily.",
     spelling_rule: 56,
   },
   {
     id: 261,
     word: "dependable",
     definition:
-      "Adjective. Reliable or trustworthy, like a dependable friend who always keeps their promises and offers support.",
+      "Adjective. Reliable or trustworthy, like a friend who always keeps their promises and offers support.",
     spelling_rule: 56,
   },
   {
     id: 262,
     word: "comfortable",
     definition:
-      "Adjective. Feeling relaxed and at ease, like lounging in a soft chair on a lazy Sunday afternoon.",
+      "Adjective. Feeling relaxed and at ease, like when lounging in a soft chair covered with a blanket.",
     spelling_rule: 56,
   },
   {
     id: 263,
     word: "understandable",
     definition:
-      "Adjective. Capable of being understood, like explaining a complex idea in a simple way for comprehension.",
+      "Adjective. Capable of being understood, such as when a complex idea is explained in a simple way.",
     spelling_rule: 56,
   },
   {
     id: 264,
     word: "reasonable",
     definition:
-      "Adjective. Sensible or fair, like making reasonable decisions based on logic and common sense.",
+      "Adjective. Sensible, fair and logical.",
     spelling_rule: 56,
   },
   {
     id: 265,
     word: "enjoyable",
     definition:
-      "Adjective. Bringing joy or pleasure, like spending an enjoyable day at the amusement park with friends.",
+      "Adjective. Bringing joy or pleasure, for example spending a day at the amusement park with friends.",
     spelling_rule: 56,
   },
   {
     id: 266,
     word: "reliable",
     definition:
-      "Adjective. Dependable or trustworthy, like relying on a reliable friend to keep their promises.",
+      "Adjective. Dependable or trustworthy.",
     spelling_rule: 56,
   },
   {
     id: 267,
     word: "possible",
     definition:
-      "Adjective. Having the potential to happen, like considering all possible outcomes before making a decision.",
+      "Adjective. Having the potential to happen.",
     spelling_rule: 56,
   },
   {
     id: 268,
     word: "possibly",
     definition:
-      "Adverb. In a way that might happen, like possibly going to the park if the weather improves.",
+      "Adverb. When there is a chance that something might happen, but it isn't certain.",
     spelling_rule: 56,
   },
   {
@@ -1814,7 +1814,7 @@ const words = [
     id: 280,
     word: "preferring",
     definition:
-      "Verb. Expressing a preference for something, like preferring chocolate ice cream over vanilla at the shop.",
+      "Verb. Liking or favouring one thing over another.",
     spelling_rule: 57,
   },
   {
@@ -1828,14 +1828,14 @@ const words = [
     id: 282,
     word: "offered",
     definition:
-      "Verb. Presenting or giving something, like offering a piece of cake to a friend at a party.",
+      "Verb. When something is presented or given to someone.",
     spelling_rule: 57,
   },
   {
     id: 283,
     word: "transferring",
     definition:
-      "Verb. Moving from one place to another, like transferring files from a computer to a USB drive.",
+      "Verb. Moving from one place to another, for instance, moving files from a computer to a USB drive.",
     spelling_rule: 57,
   },
   {
@@ -1856,14 +1856,14 @@ const words = [
     id: 286,
     word: "conceive",
     definition:
-      "Verb. To imagine or form a mental picture, like conceiving a plan for a school project.",
+      "Verb. To imagine or form a mental picture, for instance, coming up with a plan for a school project.",
     spelling_rule: 58,
   },
   {
     id: 287,
     word: "receive",
     definition:
-      "Verb. To accept or take in, like receiving a gift with gratitude from a friend.",
+      "Verb. To accept something or take it in.",
     spelling_rule: 58,
   },
   {
@@ -1877,91 +1877,91 @@ const words = [
     id: 289,
     word: "deceit",
     definition:
-      "Noun. The act of deceiving or misleading others, like using deceit to gain an unfair advantage.",
+      "Abstract noun. The act of misleading others.",
     spelling_rule: 58,
   },
   {
     id: 290,
     word: "deceive",
     definition:
-      "Verb. To trick or mislead someone, like trying to deceive others with false information.",
+      "Verb. To trick or mislead someone.",
     spelling_rule: 58,
   },
   {
     id: 291,
     word: "caffeine",
     definition:
-      "Noun. A substance found in coffee and tea, like drinking a soda with added caffeine for energy.",
+      "Noun. A substance found in coffee and tea that can make people feel alert.",
     spelling_rule: 58,
   },
   {
     id: 292,
     word: "seize",
     definition:
-      "Verb. To grab or take hold of suddenly, like snatching a cookie from the jar.",
+      "Verb. To grab or take hold of suddenly, like snatching a biscuit from the biscuit tin.",
     spelling_rule: 58,
   },
   {
     id: 293,
     word: "either",
     definition:
-      "Adverb. Indicating a choice between two options, like picking either chocolate or vanilla ice cream.",
+      "Adverb. This word indicates a choice between two options.",
     spelling_rule: 58,
   },
   {
     id: 294,
     word: "neither",
     definition:
-      "Adverb. Not one or the other, like neither of the two restaurants serving your favorite food.",
+      "Adverb. 'Not one or the other.'",
     spelling_rule: 58,
   },
   {
     id: 295,
     word: "thought",
     definition:
-      "Noun. An idea or notion in one's mind, like considering different thoughts before making a decision.",
+      "Noun. An idea in your mind.",
     spelling_rule: 59,
   },
   {
     id: 296,
     word: "bought",
     definition:
-      "Verb. Past tense of purchasing something, like getting the latest video game at the store.",
+      "Verb. Simple past tense of 'buy'.",
     spelling_rule: 59,
   },
   {
     id: 297,
     word: "nought",
     definition:
-      "Noun. Zero or nothing, like scoring nought points in a game of tic-tac-toe.",
+      "Noun. Zero or nothing.",
     spelling_rule: 59,
   },
   {
     id: 298,
     word: "brought",
     definition:
-      "Verb. Carried or transported something to a place, like bringing snacks to a party.",
+      "Verb. Simple past tense of 'bring'.",
     spelling_rule: 59,
   },
   {
     id: 299,
     word: "fought",
     definition:
-      "Verb. Engaged in a physical fight or conflict, like defending your friend in a playground fight.",
+      "Verb. Simple past tense of 'fight'.",
     spelling_rule: 59,
   },
   {
     id: 300,
     word: "rough",
     definition:
-      "Adjective. Not smooth or even, like walking on a rough path through the forest.",
+      "Adjective. Antonym of 'smooth' or 'even'.",
     spelling_rule: 59,
   },
   {
     id: 301,
     word: "tough",
     definition:
-      "Adjective. Difficult or challenging, like tackling a tough math problem that requires careful thinking.",
+      "Adjective. Difficult or challenging.",
     spelling_rule: 59,
   },
   {
@@ -1989,7 +1989,7 @@ const words = [
     id: 305,
     word: "borough",
     definition:
-      "Noun. A district or neighborhood within a city.",
+      "Noun. A district or neighbourhood in a city.",
     spelling_rule: 59,
   },
   {
@@ -2059,84 +2059,84 @@ const words = [
     id: 315,
     word: "comb",
     definition:
-      "Noun. A tool used for grooming hair, like running a comb through tangled hair.",
+      "Noun. A tool used for grooming hair that is often used by hairdressers. It is thinner than a brush.",
     spelling_rule: 60,
   },
   {
     id: 316,
     word: "climb",
     definition:
-      "Verb. To ascend or move upwards, like climbing a tree to reach the ripe fruit.",
+      "Verb. To move upwards.",
     spelling_rule: 60,
   },
   {
     id: 317,
     word: "autumn",
     definition:
-      "Noun. The season between summer and winter, like leaves falling from trees during autumn.",
+      "Noun. The season between summer and winter, when the leaves of deciduous trees turn brown and fall off.",
     spelling_rule: 60,
   },
   {
     id: 318,
     word: "column",
     definition:
-      "Noun. A vertical structure often seen in buildings, like counting the columns in ancient ruins.",
+      "Noun. A vertical structure often seen in buildings. This style of building was especially popular in ancient Greece.",
     spelling_rule: 60,
   },
   {
     id: 319,
     word: "hymn",
     definition:
-      "Noun. A religious song or poem, like singing a hymn during a church service.",
+      "Noun. A religious song or poem.",
     spelling_rule: 60,
   },
   {
     id: 320,
     word: "listen",
     definition:
-      "Verb. To pay attention or heed, like listening carefully to the teacher during class.",
+      "Verb. To pay attention to what someone is saying.",
     spelling_rule: 60,
   },
   {
     id: 321,
     word: "whistle",
     definition:
-      "Verb. To produce a high-pitched sound by blowing, like blowing air through a whistle.",
+      "Verb. To produce a high-pitched sound by blowing.",
     spelling_rule: 60,
   },
   {
     id: 322,
     word: "fasten",
     definition:
-      "Verb. To secure or fasten securely, like fastening the seatbelt before driving the car.",
+      "Verb. To secure something, for example, securing your seatbelt before travelling in a car.",
     spelling_rule: 60,
   },
   {
     id: 323,
     word: "castle",
     definition:
-      "Noun. A fortified residence of a noble or royalty, like exploring a medieval castle on a tour.",
+      "Noun. The fortified home of a noble or member of royalty.",
     spelling_rule: 60,
   },
   {
     id: 324,
     word: "wrestle",
     definition:
-      "Verb. To engage in physical combat or struggle, like wrestling with a sibling for fun.",
+      "Verb. To engage in physical fighting where the opponents look like they are in a bear hug.",
     spelling_rule: 60,
   },
   {
     id: 325,
     word: "gristle",
     definition:
-      "Noun. Tough cartilaginous tissue, like finding gristle in a piece of meat while eating.",
+      "Noun. Tough tissue made of cartilage, sometimes found in meat.",
     spelling_rule: 60,
   },
   {
     id: 326,
     word: "glisten",
     definition:
-      "Verb. To shine or sparkle, like dewdrops glistening in the morning sunlight.",
+      "Verb. To shine or sparkle.",
     spelling_rule: 60,
   },
   {
@@ -2150,35 +2150,35 @@ const words = [
     id: 328,
     word: "February",
     definition:
-      "Noun. The second month of the year, like celebrating Valentine's Day in February.",
+      "Noun. The second month of the year, which comes after January.",
     spelling_rule: 60,
   },
   {
     id: 329,
     word: "sword",
     definition:
-      "Noun. A weapon with a long metal blade, like knights wielding swords in battle.",
+      "Noun. A weapon with a long sharp metal blade, used in wars long ago.",
     spelling_rule: 60,
   },
   {
     id: 330,
     word: "wreck",
     definition:
-      "Verb. To cause destruction or damage, like witnessing a shipwreck during a storm.",
+      "Meaning 1: a verb meaning 'to cause destruction or damage'. Meaning 2: a noun meaning 'something that has been destroyed'.",
     spelling_rule: 60,
   },
   {
     id: 331,
     word: "yacht",
     definition:
-      "Noun. A large sailing vessel for pleasure or racing, like sailing on a luxurious yacht.",
+      "Noun. A large sailing boat that is often luxurious.",
     spelling_rule: 60,
   },
   {
     id: 332,
     word: "biscuit",
     definition:
-      "Noun. A baked sweet treat, often eaten together with a cup of tea.",
+      "Noun. A baked sweet treat, often eaten while drinking a cup of tea.",
     spelling_rule: 60,
   },
   {
@@ -2874,7 +2874,7 @@ const words = [
     id: 437,
     word: "plane",
     definition:
-      "Noun. A flat, level surface or area, often used to describe a geometric figure or tool.",
+      "Noun. Meaning 1: a flying vehicle used for air travel. Meaning 2: a flat, level surface or area, often used to describe a geometric figure or tool.",
     spelling_rule: 61,
   },
   {
