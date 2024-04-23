@@ -1584,7 +1584,7 @@ const words = [
     id: 247,
     word: "adorable",
     definition:
-      "Adjective. Very cute or lovable, like a puppy playing with its favorite toy in the sun.",
+      "Adjective. Very cute or lovable, like two kittens playing together.",
     spelling_rule: 56,
   },
   {
@@ -2184,7 +2184,7 @@ const words = [
   {
     id: 335,
     word: "father",
-    definition: "Noun. A male parent",
+    definition: "Noun. A male parental figure",
     spelling_rule: 61,
   },
   {
@@ -2777,7 +2777,7 @@ const words = [
     id: 425,
     word: "male",
     definition:
-      "Adjective. Of the sex that typically produces sperm cells, distinct from female in reproductive anatomy.",
+      "Adjective. A word used to describe men and boys.",
     spelling_rule: 61,
   },
   {
