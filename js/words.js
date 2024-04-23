@@ -2145,7 +2145,7 @@ const words = [
     word: "sword",
     definition:
       "Noun. A weapon with a long sharp metal blade, used in wars long ago.",
-    spelling_rule: 60,
+    spelling_rule: 61,
   },
   {
     id: 330,
@@ -2918,6 +2918,13 @@ const words = [
     word: "current",
     definition:
       "Noun. The flow of water, air or electricity in a particular direction, often used to describe movement.",
+    spelling_rule: 61,
+  },
+  {
+    id: 446,
+    word: "soared",
+    definition:
+      "Verb (simple past tense). Meaning 1: flew high above, using minimal effort. Meaning 2: increased rapidly.",
     spelling_rule: 61,
   },
 ];
