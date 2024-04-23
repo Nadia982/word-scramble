@@ -2137,7 +2137,7 @@ const words = [
     id: 328,
     word: "February",
     definition:
-      "Noun. The second month of the year, which comes after January.",
+      "Proper noun. The second month of the year, which comes after January.",
     spelling_rule: 60,
   },
   {
