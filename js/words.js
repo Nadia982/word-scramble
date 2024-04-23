@@ -29,7 +29,7 @@ const words = [
     id: 6,
     word: "preferring",
     definition:
-      "choosing one thing in preference to another because you like it more.",
+      "choosing one thing rather than another because you like it more.",
   },
   {
     id: 7,
@@ -87,7 +87,7 @@ const words = [
     id: 16,
     word: "crystal",
     definition:
-      "A shiny, clear rock that forms in shapes and reflects light beautifully, often used for jewelry or decorations.",
+      "A shiny, clear rock that forms in shapes and reflects light, often used for jewellery or decorations.",
   },
   {
     id: 17,
@@ -142,6 +142,7 @@ const words = [
     word: "tough",
     definition:
       "hard to do or endure, or a person or thing that shows strength, effort, or resilience. ",
+    spelling_rule: 59,
   },
 
   {
@@ -1005,7 +1006,7 @@ const words = [
     id: 163,
     word: "chameleon",
     definition:
-      "Noun. An animal that can change its color to blend in with its surroundings, like a lizard.",
+      "Noun. A lizard-like animal that can change its color to blend in with its surroundings.",
     spelling_rule: 48,
   },
   {
@@ -1145,7 +1146,7 @@ const words = [
     id: 183,
     word: "monologue",
     definition:
-      "Noun. A long speech or monologue by one person, like a character in a play or movie.",
+      "Noun. A long speech delivered by one person.",
     spelling_rule: 50,
   },
   {
@@ -1361,7 +1362,7 @@ const words = [
     id: 214,
     word: "artificial",
     definition:
-      "Adjective. Not natural or real, like artificial flavors added to candy or soda.",
+      "Adjective. Something that is man-made as opposed to natural.",
     spelling_rule: 54,
   },
   {
@@ -1417,7 +1418,7 @@ const words = [
     id: 222,
     word: "observance",
     definition:
-      "Noun. The act of following rules or customs, like attending a religious observance or ceremony.",
+      "Noun. The act of following rules or customs, especially relating to religious holidays.",
     spelling_rule: 55,
   },
   {
@@ -1569,7 +1570,7 @@ const words = [
     id: 245,
     word: "independent",
     definition:
-      "Adjective. Able to act or think independently, like a teenager making decisions without parental guidance.",
+      "Adjective. Able to act or think on your own.",
     spelling_rule: 55,
   },
   {
@@ -1955,20 +1956,6 @@ const words = [
     word: "rough",
     definition:
       "Adjective. Antonym of 'smooth' or 'even'.",
-    spelling_rule: 59,
-  },
-  {
-    id: 301,
-    word: "tough",
-    definition:
-      "Adjective. Difficult or challenging.",
-    spelling_rule: 59,
-  },
-  {
-    id: 302,
-    word: "though",
-    definition:
-      "Conjunction meaning 'despite the fact that'",
     spelling_rule: 59,
   },
   {
