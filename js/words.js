@@ -329,7 +329,7 @@ const words = [
     id: 57,
     word: "impatient",
     definition:
-      "Feeling restless or irritated when things aren't happening as quickly as desired.",
+      "Feeling restless or irritated when things aren't happening as quickly as you want.",
   },
   {
     id: 58,
@@ -894,7 +894,7 @@ const words = [
     id: 147,
     word: "comprehension",
     definition:
-      "Noun. Understanding something completely, like when you solve a math problem without help from anyone.",
+      "Noun. Understanding something completely.",
     spelling_rule: 47,
   },
   {
