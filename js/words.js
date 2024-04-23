@@ -2,17 +2,17 @@ const words = [
   {
     id: 1,
     word: "forgotten",
-    definition: "something lost from memory or not remembered anymore.",
+    definition: "Something lost from memory or not remembered anymore.",
   },
   {
     id: 2,
     word: "forgetting",
-    definition: "when you are not remembering something, you are ______ it.",
+    definition: "Verb. When you are not remembering something, you are ______ it.",
   },
   {
     id: 3,
     word: "beginner",
-    definition: "someone who is not experienced at doing something.",
+    definition: "Noun. Someone who is not experienced at doing something.",
   },
   {
     id: 4,
@@ -35,18 +35,18 @@ const words = [
     id: 7,
     word: "gardening",
     definition:
-      "an outdoor activity that can include planting flowers and mowing the lawn.",
+      "An outdoor activity that can include planting flowers and mowing the lawn.",
   },
   {
     id: 8,
     word: "limiting",
     definition:
-      "setting boundaries or restrictions that control what you can or can't do.",
+      "Setting boundaries or restrictions that control what you can or can't do.",
   },
   {
     id: 9,
     word: "gym",
-    definition: "a place where people can go to work out.",
+    definition: "A place where people can go to work out.",
   },
   {
     id: 10,
@@ -58,24 +58,24 @@ const words = [
     id: 11,
     word: "mystery",
     definition:
-      "a puzzling situation or event that needs to be solved or understood.",
+      "Noun. A puzzling situation or event that needs to be solved or understood.",
   },
   {
     id: 12,
     word: "symbol",
     definition:
-      "something that represents or stands for an idea, feeling, or thing.",
+      "Noun. Something that represents or stands for an idea, feeling, or thing.",
   },
   {
     id: 13,
     word: "synonym",
-    definition: "a word that means the same or nearly the same as another.",
+    definition: "Noun. A word that means the same or nearly the same as another.",
   },
   {
     id: 14,
     word: "system",
     definition:
-      "a routine or plan where different parts work together to make something happen smoothly, like a school schedule.",
+      "Noun. A routine, plan or method where different parts work together to make something happen smoothly.",
   },
   {
     id: 15,
@@ -621,7 +621,7 @@ const words = [
     id: 108,
     word: "nature",
     definition:
-      "Noun. The natural world, including plants, animals, landscapes, and phenomena, often contrasted with human civilization.",
+      "Noun. The natural world, including plants, animals, landscapes, and phenomena, often contrasted with human civilisation.",
     spelling_rule: 44,
   },
   {
@@ -698,7 +698,7 @@ const words = [
     id: 119,
     word: "famous",
     definition:
-      "adjective. Widely known or recognized by many people, often celebrated or renowned for achievements or qualities.",
+      "adjective. Widely known or recognised by many people, often celebrated or renowned for achievements or qualities.",
     spelling_rule: 46,
   },
   {
@@ -740,14 +740,14 @@ const words = [
     id: 125,
     word: "glamorous",
     definition:
-      "adjective. Attractive, alluring, or glamorous in a way that captivates attention or admiration.",
+      "Adjective. Something or someone who has a luxurious or beautiful appearance.",
     spelling_rule: 46,
   },
   {
     id: 126,
     word: "vigorous",
     definition:
-      "adjective. Strong, energetic, or robust in action, often characterized by vigorous movement or activity.",
+      "Adjective. Strong, energetic, or robust in action, often characterised by vigorous movement or activity.",
     spelling_rule: 46,
   },
   {
@@ -1069,7 +1069,7 @@ const words = [
     id: 172,
     word: "chalet",
     definition:
-      "Noun. A cozy wooden house in the mountains, often used as a holiday home for people who are skiing",
+      "Noun. A cosy wooden house in the mountains, often used as a holiday home for people who are skiing",
     spelling_rule: 49,
   },
   {
@@ -2317,7 +2317,7 @@ const words = [
   {
     id: 356,
     word: "aisle",
-    definition: "Noun. a gangway between seats (in a church, train, plane).",
+    definition: "Noun. a gangway between seats (in a church, train or plane).",
     spelling_rule: 61,
   },
   { id: 357, word: "isle", definition: "Noun. An island", spelling_rule: 61 },
@@ -2437,7 +2437,7 @@ const words = [
   {
     id: 376,
     word: "bridal",
-    definition: "Adjective. Relating to a bridge at a wedding.",
+    definition: "Adjective. Relating to a bride at a wedding.",
     spelling_rule: 61,
   },
   {
@@ -2504,7 +2504,7 @@ const words = [
     id: 386,
     word: "licence",
     definition:
-      "Noun. Official permission or authorization given by an authority to do something, like driving.",
+      "Noun. Official permission or authorisation given by an authority to do something, like driving.",
     spelling_rule: 61,
   },
   {

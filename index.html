@@ -10,8 +10,7 @@
   </head>
   <body>
     <p class="attribution">
-      This website contain public sector information licensed
-      under the
+      This website contain public sector information licensed under the
       <a
         class="attribution-link"
         tabindex="-1"
@@ -22,38 +21,47 @@
 
     <div class="container">
       <select name="" id="voice-select"></select>
-      <h1>KS2 SATs Spellings Word Scramble</h1>
-      <div class="content">
+      <h1>KS2 SATs Spellings <br> Word Scramble</h1>
+            <div class="content">
+        
         <div class="top-button-container">
           <button id="read-word-btn" class="btn">
             <img width="30" src="./images/speaker.png" alt="" /> Read word
           </button>
           <button id="read-definition-btn" class="btn">
-            <img width="30" src="./images/speaker.png" alt="" /> Read
-            definition
+            <img width="30" src="./images/speaker.png" alt="" /> Read definition
           </button>
         </div>
-        <p class="word"></p>
         
+
+        <form id="form" autocomplete="off" onkeydown="return processKey(event)">
+          <input
+            autocorrect="off"
+            autocapitalize="off"
+            autocomplete="false"
+            class="input"
+            type="text"
+            placeholder="Type the correctly spelt word here"
+          />
+        </form>
+        <p class="homophone"></p>
+        <div class="end-container">
+          <button class="check-word">Check word</button>
+          <button class="new-word hide">New word</button>
+        </div>
+        
+        <span class = "scrambled-word-label">Scrambled word: </span>
+        <span class="word"></span>
+
         <div class="details">
           <p class="hint">Definition: <span></span></p>
-          <div class="details-container">
-            <p class="emoji" id="emoji"></p>
-            <p class="message"></p>
-          </div>
+          
         </div>
-        <p class="homophone"></p>
-        <form id="form" autocomplete="off" onkeydown="return processKey(event)" >
-        
-          <input 
-          autocorrect="off" 
-          autocapitalize="off"
-          autocomplete="false"
-          class="input"
-          type="text"
-          placeholder="Type the correctly spelt word here"
-        />
-      </form>
+        <div class="details-container">
+          
+          <p class="message"></p>
+          <p class="emoji" id="emoji"></p>
+        </div>
         <div class="end-container">
           <p>
             Words spelt correctly this session:
@@ -63,10 +71,6 @@
           <!-- <p class="time">
                 Time left: <span><b>30</b></span>
               </p> -->
-        </div>
-        <div class="end-container">
-          <button class="check-word">Check word</button>
-          <button class="new-word hide">New word</button>
         </div>
         
       </div>
