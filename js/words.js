@@ -130,7 +130,8 @@ const words = [
     word: "enormous",
     definition:
       "exceptionally large, like a huge crocodile or an immense skyscraper.",
-  },
+      spelling_rule: 46,
+    },
   {
     id: 24,
     word: "enough",
@@ -719,17 +720,10 @@ const words = [
     id: 122,
     word: "tremendous",
     definition:
-      "adjective. Extremely large, impressive, or powerful in scale, extent, or effect.",
+      "adjective. Extremely large, impressive, or powerful in size or effect.",
     spelling_rule: 46,
   },
-  {
-    id: 123,
-    word: "enormous",
-    definition:
-      "adjective. Very large in size, extent, or quantity, often to an impressive or overwhelming degree.",
-    spelling_rule: 46,
-  },
-  {
+   {
     id: 124,
     word: "humorous",
     definition:
@@ -2770,7 +2764,7 @@ const words = [
     id: 424,
     word: "mail",
     definition:
-      "Noun. Correspondence or packages sent through postal or electronic means for communication or delivery.",
+      "Noun. Letters or parcels sent through the post.",
     spelling_rule: 61,
   },
   {
