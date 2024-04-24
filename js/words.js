@@ -41,18 +41,18 @@ const words = [
     id: 8,
     word: "limiting",
     definition:
-      "Setting boundaries or restrictions that control what you can or can't do.",
+      "Verb (present progressive or past progressive tense). Setting boundaries or restrictions that control what you can or can't do.",
   },
   {
     id: 9,
     word: "gym",
-    definition: "A place where people can go to work out.",
+    definition: "Noun. A place where people can go to exercise.",
   },
   {
     id: 10,
     word: "myth",
     definition:
-      "a story, often from long ago, that might not be real but teaches important lessons.",
+      "Noun. A story, often from long ago, that might not be real but teaches important lessons.",
   },
   {
     id: 11,
