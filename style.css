@@ -107,7 +107,8 @@ body {
   }
 
 .highlight {
-  background-color: yellow;
+  background-color: #FECAB6;
+  border-radius: .5rem;
 }
 
 .details {
