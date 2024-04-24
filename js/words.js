@@ -1173,7 +1173,7 @@ const words = [
     id: 187,
     word: "disciple",
     definition:
-      "Noun. A follower or student, like someone who learns from a teacher or mentor.",
+      "Noun. A follower or student; someone who learns from a teacher or mentor.",
     spelling_rule: 51,
   },
   {
@@ -1369,7 +1369,7 @@ const words = [
     id: 215,
     word: "partial",
     definition:
-      "Adjective. Favoring one side over another, like preferring one team in a sports competition.",
+      "Adjective. Favouring one side over another, like preferring one team in a sports competition.",
     spelling_rule: 54,
   },
   {

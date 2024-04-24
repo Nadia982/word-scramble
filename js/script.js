@@ -12,6 +12,7 @@ const wordText = document.querySelector(".word"),
   homophone = document.querySelector(".homophone");
 let message = document.querySelector(".message");
 let scoreContainer = document.querySelector(".score-container");
+let totalWords = document.querySelector(".total-words");
 let correctWord, timer, wordDefinition;
 let score = 0;
 let emoji = document.querySelector(".emoji");
@@ -195,7 +196,8 @@ const checkWord = () => {
     newWordBtn.classList.remove("hide");
     newWordBtn.focus();
     score++;
-    scoreContainer.innerHTML = score;
+    scoreContainer.innerHTML = `${score} out of ${words.length}`;
+  
     checkBtn.classList.add("hide");
   }
 };
