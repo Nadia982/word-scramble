@@ -7,7 +7,7 @@ const words = [
   {
     id: 2,
     word: "forgetting",
-    definition: "Verb. When you are not remembering something, you are ______ it.",
+    definition: "Verb (present or past progressive). When you are not remembering something, you are ______ it.",
   },
   {
     id: 3,
@@ -1069,7 +1069,7 @@ const words = [
     id: 172,
     word: "chalet",
     definition:
-      "Noun. A cosy wooden house in the mountains, often used as a holiday home for people who are skiing",
+      "Noun. A wooden house in the mountains, often used as a holiday home for people who are skiing",
     spelling_rule: 49,
   },
   {
@@ -2211,7 +2211,7 @@ const words = [
     id: 339,
     word: "principle",
     definition:
-      "Noun. A fundamental truth, belief, or rule that guides behavior or decision-making, often moral in nature.",
+      "Noun. A truth, belief, or rule that guides behaviour or decision-making, often moral in nature.",
     spelling_rule: 61,
   },
   {
@@ -2588,7 +2588,7 @@ const words = [
     id: 398,
     word: "waste",
     definition:
-      "Verb. To use resources or materials carelessly or unnecessarily, without concern for conservation.",
+      "Verb. To use resources or materials carelessly or unnecessarily, without thinking about the environment.",
     spelling_rule: 61,
   },
   {
