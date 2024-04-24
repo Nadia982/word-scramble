@@ -1062,7 +1062,7 @@ const words = [
     id: 171,
     word: "parachute",
     definition:
-      "Noun. A device used to slow down falls from heights, like the one skydivers use when jumping from planes.",
+      "Noun. Skydivers use this fabric canopy to slow their fall.",
     spelling_rule: 49,
   },
   {
@@ -2387,7 +2387,7 @@ const words = [
     id: 368,
     word: "complement",
     definition:
-      "Verb. Related to the word complete – to make something complete or more complete (e.g. her scarf complemented her outfit).",
+      "Verb. Related to the word complete – to make something complete or more complete, for instance, 'her scarf complemented her outfit'.",
     spelling_rule: 61,
   },
   {
