@@ -33,7 +33,10 @@
           </button>
         </div>
         
-
+        <div class="scrambled-word-container">
+          <span class = "scrambled-word-label">Scrambled word: </span>
+          <span class="word"></span>
+        </div>
         <form id="form" autocomplete="off" onkeydown="return processKey(event)">
           <div class="inputBox">
           <input
@@ -42,7 +45,7 @@
             autocomplete="false"
             class="input"
             type="text"
-            placeholder="Type the correctly spelt word here"
+            placeholder=""
             required="required"
           />
           <span>Type the correctly spelt word here</span>
@@ -53,9 +56,7 @@
           <button class="check-word">Check word</button>
           <button class="new-word hide">New word</button>
         </div>
-        
-        <span class = "scrambled-word-label">Scrambled word: </span>
-        <span class="word"></span>
+
 
         <div class="details">
           <p class="hint">Definition: <span></span></p>
@@ -73,9 +74,7 @@
           </p>
           <!-- <p class="results-so-far">There are a total of <span class="total-words"></span> words in this app &#8211; can you spell them all?</p> -->
 
-          <!-- <p class="time">
-                Time left: <span><b>30</b></span>
-              </p> -->
+         
         </div>
         
       </div>
