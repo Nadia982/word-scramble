@@ -10,6 +10,7 @@ const wordText = document.querySelector(".word"),
   checkBtn = document.querySelector(".check-word"),
   form = document.getElementById("form"), 
   homophone = document.querySelector(".homophone");
+  inputSpan = document.querySelector(".input-span");
 let message = document.querySelector(".message");
 let scoreContainer = document.querySelector(".score-container");
 let totalWords = document.querySelector(".total-words");
@@ -101,6 +102,9 @@ const initGame = () => {
   // correctWord = randomObj.word.toLocaleLowerCase();
   // wordDefinition = randomObj.definition.toLocaleLowerCase();
   inputField.value = "";
+  inputSpan.innerHTML = `Type the correctly spelt word here`;
+  inputField.classList.remove("correct");
+  inputSpan.classList.remove("correct");
   inputField.setAttribute("Maxlength", correctWord.length + 5);
   message.innerHTML = "";
   emoji.innerHTML = "";
@@ -108,7 +112,7 @@ const initGame = () => {
   inputField.focus();
   checkBtn.classList.remove("hide");
   if (randomObj.spelling_rule === 61){
-    homophone.innerHTML = `This word is a homophone`;
+    homophone.innerHTML = `This word is a homophone or near-homophone`;
     homophone.classList.add("highlight");
   } else {
     homophone.innerHTML = ``;
@@ -139,9 +143,14 @@ const initGame = () => {
 inputField.addEventListener("input", function () {
   if (inputField.value.length > correctWord.length) {
     message.classList.add("incorrect");
-    message.innerHTML = `The word contains only ${correctWord.length} letters`;
+    inputSpan.innerHTML = `The word contains only ${correctWord.length} letters`;
+    inputSpan.classList.add("incorrect");
+    inputField.classList.add("incorrect");
   } else if (inputField.value.length <= correctWord.length) {
     message.innerHTML = ``;
+    inputSpan.classList.remove("incorrect");
+    inputSpan.innerHTML = `Type the correctly spelt word here`;
+    inputField.classList.remove("incorrect");
   }
 });
 
@@ -151,15 +160,11 @@ const checkWord = () => {
   synth.cancel();
   let userWord = inputField.value;
   // let userWord = inputField.value.toLocaleLowerCase();
-  if (userWord.length < correctWord.length) {
+  if (userWord !== correctWord) {
     message.classList.add("incorrect");
-    message.innerHTML = `The word you entered is not long enough - please try again!`;
-    inputField.value = "";
-    inputField.focus();
-  }
-  else if (userWord !== correctWord) {
-    message.classList.add("incorrect");
-    message.innerHTML = `Not quite - please try again!`;
+    inputSpan.innerHTML = `Not quite - please try again!`;
+    inputField.classList.add("incorrect");
+    inputSpan.classList.add("incorrect");
     inputField.value = "";
     inputField.focus();
   } else {
@@ -186,13 +191,14 @@ const checkWord = () => {
       "&#127882",
       "&#128176",
     ];
-    // emojisVisible = emojis.forEach((emoji) =>(<p>emoji</p>))
-    // console.log(emojisVisible);
+
     let randomEmojiIndex = Math.floor(Math.random() * emojis.length);
     message.classList.remove("incorrect");
     message.classList.add("correct");
+    inputField.classList.add("correct");
     emoji.innerHTML = `${emojis[randomEmojiIndex]}`;
-    message.innerHTML = `Well done &#8211; you spelt '${correctWord}' correctly!`;
+    inputSpan.innerHTML = `Well done &#8211; you spelt '${correctWord}' correctly!`;
+    inputSpan.classList.add('correct');
     newWordBtn.classList.remove("hide");
     newWordBtn.focus();
     score++;

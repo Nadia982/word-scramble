@@ -131,7 +131,7 @@ const words = [
     definition:
       "exceptionally large, like a huge crocodile or an immense skyscraper.",
       spelling_rule: 46,
-    },
+    },  
   {
     id: 24,
     word: "enough",
@@ -2069,14 +2069,14 @@ const words = [
     word: "hymn",
     definition:
       "Noun. A religious song or poem.",
-    spelling_rule: 60,
+    spelling_rule: 61,
   },
   {
     id: 320,
     word: "listen",
     definition:
       "Verb. To pay attention to what someone is saying.",
-    spelling_rule: 60,
+    spelling_rule: 61,
   },
   {
     id: 321,
@@ -2406,7 +2406,7 @@ const words = [
   {
     id: 372,
     word: "descent",
-    definition: "Noun. the act of descending (going down).",
+    definition: "Noun. The act of descending (going down).",
     spelling_rule: 61,
   },
   {
