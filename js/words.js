@@ -142,7 +142,7 @@ const words = [
     id: 25,
     word: "tough",
     definition:
-      "hard to do or endure, or a person or thing that shows strength, effort, or resilience. ",
+      "hard to do or endure, or a person or thing that shows strength, effort, or resilience.",
     spelling_rule: 59,
   },
 
@@ -935,7 +935,7 @@ const words = [
   },
   {
     id: 154,
-    word: "politician ",
+    word: "politician",
     definition:
       "Noun. A person involved in politics, like the mayor of your city or a member of parliament.",
     spelling_rule: 47,
