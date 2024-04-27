@@ -2126,6 +2126,7 @@ const words = [
     definition:
       "Noun. A type of fish with pink flesh that is often caught for food.",
     spelling_rule: 60,
+    proper: false,
   },
   {
     id: 328,
@@ -2133,6 +2134,7 @@ const words = [
     definition:
       "Proper noun. The second month of the year, which comes after January.",
     spelling_rule: 60,
+    proper: true,
   },
   {
     id: 329,
@@ -2140,6 +2142,7 @@ const words = [
     definition:
       "Noun. A weapon with a long sharp metal blade, used in wars long ago.",
     spelling_rule: 61,
+    proper: false,
   },
   {
     id: 330,

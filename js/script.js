@@ -99,8 +99,6 @@ const initGame = () => {
   hintText.innerText = randomObj.definition;
   correctWord = randomObj.word;
   wordDefinition = randomObj.definition;
-  // correctWord = randomObj.word.toLocaleLowerCase();
-  // wordDefinition = randomObj.definition.toLocaleLowerCase();
   inputField.value = "";
   inputSpan.innerHTML = `Type the correctly spelt word here`;
   inputField.classList.remove("correct");
@@ -159,7 +157,6 @@ initGame();
 const checkWord = () => {
   synth.cancel();
   let userWord = inputField.value;
-  // let userWord = inputField.value.toLocaleLowerCase();
   if (userWord !== correctWord) {
     message.classList.add("incorrect");
     inputSpan.innerHTML = `Not quite - please try again!`;
