@@ -1585,63 +1585,63 @@ const words = [
     id: 248,
     word: "adorably",
     definition:
-      "Adverb. In a cute or lovable manner.",
+      "Adverb. In a sweet or lovable manner.",
     spelling_rule: 56,
   },
   {
     id: 249,
     word: "applicable",
     definition:
-      "Adjective. Suitable or relevant, like using applicable information to solve a math problem.",
+      "Adjective. Suitable or relevant.",
     spelling_rule: 56,
   },
   {
     id: 250,
     word: "applicably",
     definition:
-      "Adverb. In a suitable or relevant manner, like using the provided instructions applicably to complete the task.",
+      "Adverb. In a suitable or relevant manner.",
     spelling_rule: 56,
   },
   {
     id: 251,
     word: "considerable",
     definition:
-      "Adjective. Large in quantity or importance, like making considerable progress on a long-term project.",
+      "Adjective. Large in quantity or importance.",
     spelling_rule: 56,
   },
   {
     id: 252,
     word: "considerably",
     definition:
-      "Adverb. To a large extent or degree, like considerably improving one's performance over time.",
+      "Adverb. To a large extent or degree.",
     spelling_rule: 56,
   },
   {
     id: 253,
     word: "consideration",
     definition:
-      "Noun. The act of taking something into account or consideration, like showing consideration for others' feelings.",
+      "Noun. The act of taking something into account.",
     spelling_rule: 56,
   },
   {
     id: 254,
     word: "tolerable",
     definition:
-      "Adjective. Able to be endured or tolerated, like finding the heat outside tolerable with a breeze.",
+      "Adjective. Able to be endured.",
     spelling_rule: 56,
   },
   {
     id: 255,
     word: "tolerably",
     definition:
-      "Adverb. In a way that can be endured or tolerated, like tolerably warm weather with occasional clouds.",
+      "Adverb. In a way that can be endured.",
     spelling_rule: 56,
   },
   {
     id: 256,
     word: "toleration",
     definition:
-      "Noun. The act of enduring or accepting something, like showing toleration for someone else's opinion.",
+      "Noun. The act of enduring or accepting something.",
     spelling_rule: 56,
   },
   {
