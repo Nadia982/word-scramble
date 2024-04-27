@@ -257,7 +257,7 @@ body {
   color: #e91e63;
 }  */
 
-.score-container, .total-words {
+.results-so-far, .total-words {
   font-weight: 600;
 }
 

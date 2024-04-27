@@ -519,7 +519,7 @@ const words = [
     id: 87,
     word: "attraction",
     definition:
-      "It's when you're drawn to something or someone because they're interesting or appealing.",
+      "Noun. When you're drawn to something or someone because they're interesting or appealing.",
   },
   {
     id: 88,

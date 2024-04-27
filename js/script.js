@@ -12,7 +12,7 @@ const scrambledWordText = document.querySelector(".word"),
   homophone = document.querySelector(".homophone");
   inputSpan = document.querySelector(".input-span");
 let message = document.querySelector(".message");
-let scoreContainer = document.querySelector(".score-container");
+let resultsSoFar = document.querySelector(".results-so-far");
 let totalWords = document.querySelector(".total-words");
 let correctWord, timer, wordDefinition;
 let score = 0;
@@ -89,6 +89,7 @@ readDefBtn.addEventListener("click", (e) => {
 });
 
 const initGame = () => {
+  totalWords.innerHTML = `${words.length}`;
   let randomObj = words[Math.floor(Math.random() * words.length)];
   
   const scrambleWord = (randomObj) => {
@@ -208,9 +209,9 @@ const checkWord = () => {
     newWordBtn.classList.remove("hide");
     newWordBtn.focus();
     score++;
-    scoreContainer.innerHTML = `${score} out of ${words.length}`;
-  
     checkBtn.classList.add("hide");
+    resultsSoFar.innerHTML = `${score}`;
+    
   }
 };
 
