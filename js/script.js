@@ -1,4 +1,4 @@
-const wordText = document.querySelector(".word"),
+const scrambledWordText = document.querySelector(".word"),
   hintText = document.querySelector(".hint span"),
   timeText = document.querySelector(".time b"),
   inputField = document.querySelector(".input"),
@@ -52,7 +52,7 @@ if (synth.onvoiceschanged !== undefined) {
 const speak = (whatToSay) => {
   //Check if already speaking
   if (synth.speaking) {
-    console.error("Already speaking...");
+    // console.error("Already speaking...");
     return;
   }
   if (correctWord !== "") {
@@ -67,9 +67,9 @@ const speak = (whatToSay) => {
     //   console.log("Finished speaking");
     // };
     //Speak error
-    speakText.onerror = (e) => {
-      console.error("Something went wrong");
-    };
+    // speakText.onerror = (e) => {
+    //   console.error("Something went wrong");
+    // };
     //Determining which voice to use to speak
     const selectedVoice = "en-US";
 
@@ -90,12 +90,21 @@ readDefBtn.addEventListener("click", (e) => {
 
 const initGame = () => {
   let randomObj = words[Math.floor(Math.random() * words.length)];
+  
+  const scrambleWord = (randomObj) => {
   let wordArray = randomObj.word.split("");
   for (let i = wordArray.length - 1; i > 0; i--) {
     let j = Math.floor(Math.random() * (i + 1));
     [wordArray[i], wordArray[j]] = [wordArray[j], wordArray[i]];
   }
-  wordText.innerText = wordArray.join("");
+    if (randomObj.word !== wordArray.join("")){
+        scrambledWordText.innerText = wordArray.join("");
+  } else {scrambleWord(randomObj);
+   
+}
+}
+scrambleWord(randomObj);
+ 
   hintText.innerText = randomObj.definition;
   correctWord = randomObj.word;
   wordDefinition = randomObj.definition;

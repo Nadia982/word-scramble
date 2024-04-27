@@ -1,3 +1,19 @@
+// const words = [
+//   {id: 1,
+//   word: "hi", 
+// definition: "a greeting"
+// }, 
+//   {id: 2,
+//     word: "cat", 
+//   definition: "a pet"
+
+//   }, 
+//   {id: 3,
+//     word: "ma", 
+//   definition: "informal word for mother"}, 
+
+// ];
+
 const words = [
   {
     id: 1,
