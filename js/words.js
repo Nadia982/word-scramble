@@ -34,7 +34,7 @@ const words = [
     id: 5,
     word: "preferred",
     definition:
-      "meaning 1 - adjective meaning something that is liked more than other options. Meaning 2 - verb (simple past tense of 'prefer')",
+      "meaning 1 - adjective meaning something that is liked more than other options. Meaning 2 - verb (simple past tense of 'prefer').",
   },
   {
     id: 6,

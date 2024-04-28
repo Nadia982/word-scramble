@@ -58,7 +58,7 @@ const speak = (whatToSay) => {
   if (correctWord !== "") {
     //Get text to speak
     const speakText = new SpeechSynthesisUtterance(whatToSay);
-
+    speakText.volume = 0.011;
     // speakText.onstart = (e) => {
     //     console.log("Started speaking");
     //   };
@@ -145,6 +145,7 @@ scrambleWord(randomObj);
       speak(wordDefinition);
     }, 2800);
   }
+
 };
 
 
@@ -166,6 +167,7 @@ initGame();
 
 const checkWord = () => {
   synth.cancel();
+  
   let userWord = inputField.value;
   if (userWord !== correctWord) {
     message.classList.add("incorrect");
