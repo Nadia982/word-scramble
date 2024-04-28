@@ -62,7 +62,7 @@ const speak = (whatToSay, whatToSayNext) => {
     speakText.onend = () => {
       speak(whatToSayNext);
     };
-    speakText.volume = 0.011;
+    speakText.volume = 0.1;
     speakText.rate = 0.8;
     const selectedVoice = "en-US";
 
@@ -81,7 +81,7 @@ const speakButton = (whatToSay) => {
   if (correctWord !== "") {
     //Get text to speak
     const speakText = new SpeechSynthesisUtterance(whatToSay);
-    speakText.volume = 0.011;
+    speakText.volume = 0.1;
     speakText.rate = 0.8;
     const selectedVoice = "en-US";
 
