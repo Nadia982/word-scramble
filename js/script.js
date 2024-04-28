@@ -173,8 +173,8 @@ initGame();
 const checkWord = () => {
   synth.cancel();
 
-  let userWord = inputField.value;
-  if (userWord !== correctWord) {
+  let userWord = inputField.value.toLowerCase();
+  if (userWord !== correctWord.toLowerCase()) {
     message.classList.add("incorrect");
     inputSpan.innerHTML = `Not quite - please try again!`;
     inputField.classList.add("incorrect");
