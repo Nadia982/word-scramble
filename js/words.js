@@ -249,7 +249,7 @@ const words = [
     id: 41,
     word: "invention",
     definition:
-      "Something created that is new or original, often solving a problem or meeting a need.",
+      "Something created that is new or original, often solving a problem.",
   },
   {
     id: 42,
