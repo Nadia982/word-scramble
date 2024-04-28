@@ -58,7 +58,13 @@ const speak = (whatToSay) => {
   if (correctWord !== "") {
     //Get text to speak
     const speakText = new SpeechSynthesisUtterance(whatToSay);
+    speakText.addEventListener("end", (event) => {
+      console.log(
+        `Utterance has finished being spoken after ${event.elapsedTime} seconds.`,
+      );
+    });
     speakText.volume = 0.011;
+    speakText.rate = .8;
     // speakText.onstart = (e) => {
     //     console.log("Started speaking");
     //   };
@@ -74,7 +80,7 @@ const speak = (whatToSay) => {
     const selectedVoice = "en-US";
 
     //Speak
-    synth.speak(speakText);
+    synth.speak(speakText)
   }
 };
 
@@ -128,10 +134,10 @@ scrambleWord(randomObj);
   }
 
   setTimeout(() => {
-    speak(correctWord);
+    speak(correctWord)
   }, 500);
-  //speak definition
 
+  //speak definition
   if (correctWord.length < 6) {
     setTimeout(() => {
       speak(wordDefinition);
