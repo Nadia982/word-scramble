@@ -955,7 +955,7 @@ const words = [
     id: 155,
     word: "mathematician",
     definition:
-      "noun. A person who studies and solves mathematical problems, like the smartest kid in your math class.",
+      "noun. A person who studies and solves maths questions.",
     spelling_rule: 47,
   },
   {
@@ -1088,14 +1088,14 @@ const words = [
     id: 174,
     word: "chauffeur",
     definition:
-      "noun. A person who drives other people around, like the driver of a limousine.",
+      "noun. A person who drives other people around, such as the driver of a limousine.",
     spelling_rule: 49,
   },
   {
     id: 175,
     word: "chiffon",
     definition:
-      "noun. A light, sheer fabric, like the material used for elegant dresses or curtains.",
+      "noun. A light, sheer fabric that is sometimes used to make elegant dresses or curtains.",
     spelling_rule: 49,
   },
   {
@@ -1116,7 +1116,7 @@ const words = [
     id: 178,
     word: "antique",
     definition:
-      "noun. An old or vintage item, like a piece of furniture passed down through generations.",
+      "noun. An old or vintage item, such as a piece of furniture passed down through generations.",
     spelling_rule: 50,
   },
   {
@@ -1130,7 +1130,7 @@ const words = [
     id: 180,
     word: "dialogue",
     definition:
-      "noun. A conversation between two or more people, like characters in a book or movie.",
+      "noun. A conversation between two or more people.",
     spelling_rule: 50,
   },
   {
@@ -1144,7 +1144,7 @@ const words = [
     id: 182,
     word: "intrigue",
     definition:
-      "verb. To capture someone's interest or curiosity, like a mysterious story or fascinating topic.",
+      "Verb/noun. To capture someone's interest or curiosity, or something that is mysterious or interesting.",
     spelling_rule: 50,
   },
   {
@@ -1164,14 +1164,14 @@ const words = [
     id: 185,
     word: "scene",
     definition:
-      "noun. A setting or place where events take place, like the scene of a play or movie.",
+      "noun. A setting or place where events take place.",
     spelling_rule: 51,
   },
   {
     id: 186,
     word: "discipline",
     definition:
-      "noun. The practice of following rules or regulations, like the way you behave in school.",
+      "noun. The practice of following rules or regulations.",
     spelling_rule: 51,
   },
   {
@@ -1185,14 +1185,14 @@ const words = [
     id: 188,
     word: "fascinate",
     definition:
-      "verb. To captivate or greatly interest someone, like an exciting book or thrilling movie.",
+      "verb. To captivate or greatly interest someone.",
     spelling_rule: 51,
   },
   {
     id: 189,
     word: "scissors",
     definition:
-      "noun. A cutting tool with two sharp blades, like the one used for cutting paper.",
+      "noun. A cutting tool with handles and two sharp blades.",
     spelling_rule: 51,
   },
   {
@@ -1213,14 +1213,14 @@ const words = [
     id: 192,
     word: "ascend",
     definition:
-      "verb. To move upward, like when you climb stairs or a mountain.",
+      "verb. To move upward, such as when climbing stairs or a mountain.",
     spelling_rule: 51,
   },
   {
     id: 193,
     word: "scenery",
     definition:
-      "noun. The natural features or surroundings of a place, like the scenery in a beautiful landscape.",
+      "noun. The natural features or surroundings of a place.",
     spelling_rule: 51,
   },
   {
@@ -1234,7 +1234,7 @@ const words = [
     id: 195,
     word: "vein",
     definition:
-      "noun. A blood vessel carrying blood towards the heart, like the ones you can see on your wrist.",
+      "noun. A blood vessel carrying blood towards the heart.",
     spelling_rule: 52,
   },
   {
@@ -1248,7 +1248,7 @@ const words = [
     id: 197,
     word: "eight",
     definition:
-      "noun. The number after seven.",
+      "noun. The number between seven and nine.",
     spelling_rule: 52,
   },
   {
@@ -1262,7 +1262,7 @@ const words = [
     id: 199,
     word: "they",
     definition:
-      "Pronoun. A pronoun used to refer to a group of people, like friends or classmates.",
+      "Pronoun. A pronoun used to refer to more than one person.",
     spelling_rule: 52,
   },
   {
@@ -1297,7 +1297,7 @@ const words = [
     id: 204,
     word: "conscious",
     definition:
-      "adjective. Being aware of one's surroundings or actions, like remembering to lock the door before leaving.",
+      "adjective. Being aware of one's surroundings or actions.",
     spelling_rule: 53,
   },
   {
@@ -1318,7 +1318,7 @@ const words = [
     id: 207,
     word: "suspicious",
     definition:
-      "adjective. Feeling unsure or doubtful about something, like suspecting a friend is telling a lie.",
+      "adjective. Feeling unsure or doubtful about something, for instance suspecting a friend is telling a lie.",
     spelling_rule: 53,
   },
   {
@@ -1357,13 +1357,6 @@ const words = [
     spelling_rule: 53,
   },
   {
-    id: 213,
-    word: "nutritious",
-    definition:
-      "adjective. Containing essential nutrients for good health, like fresh fruits, vegetables, and whole grains.",
-    spelling_rule: 53,
-  },
-  {
     id: 214,
     word: "artificial",
     definition:
@@ -1395,21 +1388,21 @@ const words = [
     id: 218,
     word: "financial",
     definition:
-      "adjective. Related to money or finances, like managing your allowance or saving up for a toy.",
+      "adjective. Related to money or finances.",
     spelling_rule: 54,
   },
   {
     id: 219,
     word: "commercial",
     definition:
-      "adjective. Related to business or buying and selling goods, like advertisements on TV or radio.",
+      "adjective. Related to business or buying and selling goods.",
     spelling_rule: 54,
   },
   {
     id: 220,
     word: "provincial",
     definition:
-      "adjective. Relating to a specific region or area, like local customs or traditions.",
+      "adjective. Relating to a specific region or area.",
     spelling_rule: 54,
   },
   {
@@ -1430,28 +1423,28 @@ const words = [
     id: 223,
     word: "observation",
     definition:
-      "noun. The act of watching or noticing things, like making an observation about the weather.",
+      "noun. The act of watching or noticing things.",
     spelling_rule: 55,
   },
   {
     id: 224,
     word: "expectant",
     definition:
-      "adjective. Feeling excited or hopeful about something that is going to happen, like waiting for a birthday party.",
+      "adjective. Feeling excited or hopeful about something that is going to happen, such as waiting for a birthday party.",
     spelling_rule: 55,
   },
   {
     id: 225,
     word: "expectation",
     definition:
-      "noun. The belief or hope that something will happen, like expecting good grades on a test.",
+      "noun. The belief or hope that something will happen, such as expecting good grades on a test.",
     spelling_rule: 55,
   },
   {
     id: 226,
     word: "hesitant",
     definition:
-      "adjective. Feeling unsure or reluctant, like hesitating before trying something new or unfamiliar.",
+      "adjective. Feeling unsure or reluctant.",
     spelling_rule: 55,
   },
   {
@@ -1465,7 +1458,7 @@ const words = [
     id: 228,
     word: "hesitation",
     definition:
-      "noun. The act of pausing or delaying, like hesitating before making an important decision.",
+      "noun. The act of pausing or delaying.",
     spelling_rule: 55,
   },
   {
