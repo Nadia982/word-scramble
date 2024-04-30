@@ -100,6 +100,23 @@ body {
   margin: 1rem 1rem 0 0;
 }
 
+.volume-control-container {
+  position: relative;
+  display: flex;
+  gap: 2rem;
+  margin-bottom: .7rem;
+}
+
+.volume-label, .volume-input {
+  padding: 0;
+  position: relative;
+  display: inline;
+}
+
+.volume-input{
+  flex: 0 1 40%;
+}
+
 .word {
   font-size: 1.8rem;
   font-weight: 500;
@@ -175,7 +192,7 @@ body {
  margin-bottom: 35px; 
 }
 
-.content input {
+.text-input {
   position: absolute;
   top: 0;
   left: 0;
@@ -192,7 +209,7 @@ body {
   border-radius: none;
 }
 
-.input:focus {
+.text-input:focus {
   outline: 3px solid var(--neutral-dark-color); 
 }
 
@@ -201,22 +218,22 @@ body {
   border-width: 2px 2px 2px 15px; 
 }
 
-.input.correct{
+.text-input.correct{
   border-color: var(--correct-color);
   border-width: 2px 2px 2px 15px; 
 }
 
-.input.incorrect{
+.text-input.incorrect{
   border-color: var(--incorrect-color);
   border-width: 2px 2px 2px 15px; 
 }
 
-.input.correct:focus{
+.text-input.correct:focus{
   outline-color: var(--correct-color);
   
 }
 
-.input.incorrect:focus{
+.text-input.incorrect:focus{
   outline-color: var(--incorrect-color);
 }
 

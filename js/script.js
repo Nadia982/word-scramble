@@ -1,7 +1,7 @@
 const scrambledWordText = document.querySelector(".word"),
   hintText = document.querySelector(".hint span"),
   timeText = document.querySelector(".time b"),
-  inputField = document.querySelector(".input"),
+  inputField = document.querySelector(".text-input"),
   readWordBtn = document.querySelector("#read-word-btn"),
   readDefBtn = document.querySelector("#read-definition-btn"),
   newWordBtn = document.querySelector(".new-word"),
