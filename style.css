@@ -100,21 +100,43 @@ body {
   margin: 1rem 1rem 0 0;
 }
 
-.volume-control-container {
+.slider-container{
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,0.1);
+  padding: 1rem 0;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 2rem; */
+  margin: 1rem 0 0;
+}
+
+.slider {
   position: relative;
   display: flex;
+  align-items: center;
   gap: 2rem;
-  margin-bottom: .7rem;
+  height: 8px;
+  width: 300px;
 }
 
 .volume-label, .volume-input {
   padding: 0;
   position: relative;
-  display: inline;
+  /* display: inline; */
 }
 
 .volume-input{
+  position: absolute;
+  left: -2px;
+  top: 0;
+  width: 304px;
+  height: 8px;
+  -webkit-appearance: none;
   flex: 0 1 40%;
+  background: transparent;
+  z-index: 99;
+
 }
 
 .word {
