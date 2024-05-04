@@ -2928,4 +2928,18 @@ const words = [
       "Verb (simple past tense). Meaning 1: flew high above, using minimal effort. Meaning 2: increased rapidly.",
     spelling_rule: 61,
   },
+  {
+    id: 447,
+    word: "hours",
+    definition:
+      "noun. Plural of a word meaning 'a period of time equal to sixty minutes.'",
+    spelling_rule: 61,
+  },
+  {
+    id: 448,
+    word: "ours",
+    definition:
+      "possessive pronoun. Means 'belonging to us.'",
+    spelling_rule: 61,
+  },
 ];
