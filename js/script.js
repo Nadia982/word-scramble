@@ -37,19 +37,6 @@ let voices = [];
 
 const getVoices = () => {
   voices = synth.getVoices();
-
-  //Loop through voices and create an option for each one
-  voices.forEach((voice) => {
-    //Create option element for each voice
-    const option = document.createElement("option");
-    //Fill option with voice and language
-    option.textContent = voice.lang + " (" + voice.name + ")";
-    //Set required option attributes
-    option.setAttribute("data-lang", voice.lang);
-    option.setAttribute("data-name", voice.name);
-    voiceSelect.appendChild(option);
-    option.style.fontSize = "0.9rem";
-  });
 };
 
 getVoices();
