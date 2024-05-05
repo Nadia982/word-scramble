@@ -1817,13 +1817,6 @@ const words = [
     spelling_rule: 57,
   },
   {
-    id: 281,
-    word: "preferred",
-    definition:
-      "adjective. Liked or favored over others, like her preferred method of studying for exams.",
-    spelling_rule: 57,
-  },
-  {
     id: 282,
     word: "offered",
     definition:
@@ -2624,7 +2617,7 @@ const words = [
     id: 403,
     word: "affect",
     definition:
-      'verb. To influence or change someone"s emotions, actions, or thoughts, often in a significant way.',
+      "verb. To influence or change something or someone.",
     spelling_rule: 61,
   },
   {
