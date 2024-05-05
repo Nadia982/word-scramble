@@ -1,3 +1,13 @@
+window.onload = function(){
+  slider = document.querySelector('.volume-input');
+  slider.oninput = function() {
+    progressBar = document.querySelector('.slider progress');
+    progressBar.value = slider.value;
+    sliderValue = document.querySelector('.slider-value');
+    sliderValue.innerHTML = slider.value;
+  }
+}
+
 const scrambledWordText = document.querySelector(".word"),
   hintText = document.querySelector(".hint span"),
   timeText = document.querySelector(".time b"),
