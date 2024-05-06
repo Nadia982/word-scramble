@@ -99,6 +99,7 @@ const speakButton = (whatToSay) => {
 };
 
 const initGame = () => {
+ 
   triesLeft = 3;
   totalWords.innerText = `${words.length}`;
   let randomObj = words[Math.floor(Math.random() * words.length)];
