@@ -112,12 +112,11 @@ body {
 flex-direction: column;
 }
 
-.slider-inner-container{
+/* .slider-inner-container{
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-    /* justify-content: center; */
-}
+  align-items: flex-start;
+  justify-content: flex-start;
+} */
 
 .slider {
   position: relative;
@@ -186,7 +185,8 @@ flex-direction: column;
   width: 28px; 
   height: 20px; 
   margin-left: 15px;
-  text-align: center;
+  /* text-align: center; */
+  font-size: 0.9rem;
 }
 
 .word {
