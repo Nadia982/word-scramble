@@ -1,9 +1,9 @@
+const slider = document.querySelector('.volume-input');
 window.onload = function(){
-  slider = document.querySelector('.volume-input');
   slider.oninput = function() {
-    progressBar = document.querySelector('.slider progress');
+    let progressBar = document.querySelector('.slider progress');
     progressBar.value = slider.value;
-    sliderValue = document.querySelector('.slider-value');
+    let sliderValue = document.querySelector('.slider-value');
     sliderValue.innerHTML = slider.value;
   }
 }
@@ -48,6 +48,7 @@ if (synth.onvoiceschanged !== undefined) {
 
 //***************************** Speak function ********************************** */
 const speak = (whatToSay, whatToSayNext) => {
+  
   //Check if already speaking
   if (synth.speaking) {
     // console.error("Already speaking...");
@@ -56,16 +57,21 @@ const speak = (whatToSay, whatToSayNext) => {
   if (correctWord !== "") {
     //Get text to speak
     const speakText = new SpeechSynthesisUtterance(whatToSay, whatToSayNext);
+      
     speakText.onend = () => {
       speak(whatToSayNext);
     };
-    speakText.volume = 0.1;
+    
+    speakText.volume = slider.value;
     speakText.rate = 0.8;
-    const selectedVoice = "en-US";
 
     //Speak
+    slider.addEventListener("change", (e) => {
+      synth.cancel();
+      speakText.volume = e.target.value;
+      synth.speak(speakText);
+    })
     synth.speak(speakText);
-   
   }
 };
 
@@ -77,13 +83,19 @@ const speakButton = (whatToSay) => {
   }
   if (correctWord !== "") {
     //Get text to speak
-    const speakText = new SpeechSynthesisUtterance(whatToSay);
-    speakText.volume = 0.1;
-    speakText.rate = 0.8;
-    const selectedVoice = "en-US";
-
+    const speakText = new SpeechSynthesisUtterance(whatToSay);  
+    speakText.volume = slider.value;
+       speakText.rate = 0.8;
+    
     //Speak
+    slider.addEventListener("change", (e) => {
+      synth.cancel();
+      speakText.volume = e.target.value;
+      synth.speak(speakText);
+    })
     synth.speak(speakText);
+    // speakText.addEventListener("change", (e) => {speakText.volume = e.target.value;});
+  
   }
 };
 

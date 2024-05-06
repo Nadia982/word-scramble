@@ -927,7 +927,7 @@ const words = [
     id: 151,
     word: "musician",
     definition:
-      "noun. Someone who plays musical instruments skillfully, like your favorite guitar player or drummer in a band.",
+      "noun. Someone who plays musical instruments skillfully.",
     spelling_rule: 47,
   },
   {
@@ -2444,7 +2444,7 @@ const words = [
   {
     id: 378,
     word: "effect",
-    definition: "Usually a noun. If used as a verb, it means 'bring about'.",
+    definition: "usually a noun. If used as a verb, it means 'bring about'.",
     spelling_rule: 61,
   },
   {
@@ -2743,7 +2743,7 @@ const words = [
     id: 421,
     word: "he'll",
     definition:
-      "Pronoun. He will or he shall, indicating a future action or state of being.",
+      "contraction meaning 'he will' or 'he shall', indicating a future action or state of being.",
     spelling_rule: 61,
   },
   {
@@ -2792,7 +2792,7 @@ const words = [
     id: 428,
     word: "meat",
     definition:
-      "noun. Edible flesh from animals, often consumed as a source of protein in various dishes.",
+      "noun. This type of food includes chicken and lamb.",
     spelling_rule: 61,
   },
   {

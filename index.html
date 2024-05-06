@@ -31,6 +31,22 @@
             <img width="30" src="./images/speaker.png" alt="" /> Definition
           </button>
         </div>
+        <div class="slider-container">
+          <label class="volume-label" for="volume">Volume:</label>
+          <div class="slider">
+            <input
+              type="range"
+              id="volume"
+              min="0"
+              max="0.5"
+              value="0.2"
+              step="0.1"
+              class="volume-input"
+            />
+            <progress min="0" max="0.5" value="0.2"></progress>
+          </div>
+          <div class="slider-value">0.2</div>
+        </div>
         <div class="scrambled-word-container">
           <span class="scrambled-word-label">Scrambled word: </span>
           <span class="word"></span>
@@ -48,22 +64,7 @@
             <span class="input-span">Type the correctly spelt word here</span>
           </div>
         </form>
-        <div class="slider-container">
-          <label class="volume-label" for="volume">Volume:</label>
-          <div class="slider">
-            <input
-              type="range"
-              id="volume"
-              min="0"
-              max="0.5"
-              value="0.2"
-              step="0.05"
-              class="volume-input"
-            />
-            <progress min="0" max="0.5" value="0.2"></progress>
-          </div>
-          <div class="slider-value">0.2</div>
-        </div>
+
         <p class="homophone"></p>
         <div class="check-words-container">
           <button class="check-word">Check word</button>
