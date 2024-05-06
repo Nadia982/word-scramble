@@ -1575,7 +1575,7 @@ const words = [
     id: 246,
     word: "independence",
     definition:
-      "noun. The state of being free to act or think independently, like enjoying the independence of college life.",
+      "noun. The state of being free to act or think independently.",
     spelling_rule: 55,
   },
   {
