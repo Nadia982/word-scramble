@@ -227,8 +227,8 @@ const checkWord = () => {
     message.classList.remove("incorrect");
     message.classList.add("correct");
     inputField.classList.add("correct");
-    emoji.innerText = `${emojis[randomEmojiIndex]}`;
-    inputSpan.innerText = `Well done &#8211; you spelt '${correctWord}' correctly!`;
+    emoji.innerHTML = `${emojis[randomEmojiIndex]}`;
+    inputSpan.innerText = `Well done - you spelt '${correctWord}' correctly!`;
     inputSpan.classList.add("correct");
     newWordBtn.classList.remove("hide");
     newWordBtn.focus();

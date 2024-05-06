@@ -2862,7 +2862,7 @@ const words = [
     id: 438,
     word: "rain",
     definition:
-      "verb. To experience falling water droplets from the sky, often accompanied by clouds and thunder.",
+      "verb. When water droplets fall from the sky.",
     spelling_rule: 61,
   },
   {
