@@ -106,11 +106,15 @@ body {
   box-shadow: 0 1px 10px 0 rgba(0,0,0,0.1);
   padding: 1rem 0;
   border-radius: 50px;
+
+  /* height: 2rem; */
+  margin: .5rem 0 0.5rem;
+}
+
+.slider-inner-container{
   display: flex;
   align-items: center;
   justify-content: center;
-  /* height: 2rem; */
-  margin: .5rem 0 0.5rem;
 }
 
 .slider {
@@ -127,7 +131,12 @@ body {
 .volume-label, .volume-input {
   padding: 0;
   position: relative;
+}
 
+.volume-label {
+  /* text-align: center; */
+  margin-left: 4rem;
+  font-size: .8rem;
 }
 
 .volume-input{
@@ -178,7 +187,7 @@ body {
 .slider-value {
   width: 28px; 
   height: 20px; 
-  margin-left: 15px;
+  margin-left: 25px;
   text-align: center;
 }
 
@@ -321,20 +330,6 @@ body {
 .input-span.incorrect {
   color: var(--incorrect-color);
 }
-
-/* input:focus {
-  outline: 2px solid #e91e63; 
-  border-top: transparent;
-  border-right: transparent;
-  border-bottom: transparent;
-} */
-
-/* .container .inputBox input:focus ~ span,
-.container .inputBox input:valid ~ span {
-  transform: translateX(-8px) translateY(-20px);
-  font-size: .9rem;
-  color: #e91e63;
-}  */
 
 .results-so-far, .total-words {
   font-weight: 600;

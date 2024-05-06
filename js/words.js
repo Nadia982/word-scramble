@@ -1004,7 +1004,7 @@ const words = [
     id: 162,
     word: "orchestra",
     definition:
-      "noun. A group of musicians playing instruments together, like the band at your school concert.",
+      "noun. A group of classical musicians playing instruments such as violins, flutes, trumpets and drums together.",
     spelling_rule: 48,
   },
   {
