@@ -2708,7 +2708,7 @@ const words = [
     id: 416,
     word: "grown",
     definition:
-      "adjective. Having reached full adult size or maturity, describing something fully developed or matured.",
+      "adjective. Something or someone that has reached full size.",
     spelling_rule: 61,
   },
   {
