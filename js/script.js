@@ -1,12 +1,12 @@
-const slider = document.querySelector('.volume-input');
-window.onload = function(){
-  slider.oninput = function() {
-    let progressBar = document.querySelector('.slider progress');
+const slider = document.querySelector(".volume-input");
+window.onload = function () {
+  slider.oninput = function () {
+    let progressBar = document.querySelector(".slider progress");
     progressBar.value = slider.value;
-    let sliderValue = document.querySelector('.slider-value');
+    let sliderValue = document.querySelector(".slider-value");
     sliderValue.innerHTML = slider.value;
-  }
-}
+  };
+};
 
 const scrambledWordText = document.querySelector(".word"),
   hintText = document.querySelector(".hint span"),
@@ -27,6 +27,7 @@ let totalWords = document.querySelector(".total-words");
 let correctWord, timer, wordDefinition;
 let score = 0;
 let emoji = document.querySelector(".emoji");
+let triesLeft = 3;
 
 //***************************** Speech synthesis ********************************** */
 //Initialise SpeechSynthesis API
@@ -48,7 +49,6 @@ if (synth.onvoiceschanged !== undefined) {
 
 //***************************** Speak function ********************************** */
 const speak = (whatToSay, whatToSayNext) => {
-  
   //Check if already speaking
   if (synth.speaking) {
     // console.error("Already speaking...");
@@ -57,11 +57,11 @@ const speak = (whatToSay, whatToSayNext) => {
   if (correctWord !== "") {
     //Get text to speak
     const speakText = new SpeechSynthesisUtterance(whatToSay, whatToSayNext);
-      
+
     speakText.onend = () => {
       speak(whatToSayNext);
     };
-    
+
     speakText.volume = slider.value;
     speakText.rate = 0.8;
 
@@ -70,7 +70,7 @@ const speak = (whatToSay, whatToSayNext) => {
       synth.cancel();
       speakText.volume = e.target.value;
       synth.speak(speakText);
-    })
+    });
     synth.speak(speakText);
   }
 };
@@ -83,24 +83,23 @@ const speakButton = (whatToSay) => {
   }
   if (correctWord !== "") {
     //Get text to speak
-    const speakText = new SpeechSynthesisUtterance(whatToSay);  
+    const speakText = new SpeechSynthesisUtterance(whatToSay);
     speakText.volume = slider.value;
-       speakText.rate = 0.8;
-    
+    speakText.rate = 0.8;
+
     //Speak
     slider.addEventListener("change", (e) => {
       synth.cancel();
       speakText.volume = e.target.value;
       synth.speak(speakText);
-    })
+    });
     synth.speak(speakText);
     // speakText.addEventListener("change", (e) => {speakText.volume = e.target.value;});
-  
   }
 };
 
-
 const initGame = () => {
+  triesLeft = 3;
   totalWords.innerHTML = `${words.length}`;
   let randomObj = words[Math.floor(Math.random() * words.length)];
 
@@ -139,25 +138,23 @@ const initGame = () => {
     homophone.classList.remove("highlight");
   }
 
-
-
   setTimeout(() => {
     speak(correctWord, wordDefinition);
   }, 500);
 
-    //Event listeners
-readWordBtn.addEventListener("click", (e) => {
-  readWordBtn.disabled=true;
-  setTimeout('readWordBtn.disabled=false', 2000);
-  synth.cancel();
-  speakButton(correctWord);
-});
-readDefBtn.addEventListener("click", (e) => {
-  readDefBtn.disabled=true;
-  setTimeout('readDefBtn.disabled=false', 2000);
-  synth.cancel();
-  speakButton(wordDefinition);
-});
+  //Event listeners
+  readWordBtn.addEventListener("click", (e) => {
+    readWordBtn.disabled = true;
+    setTimeout("readWordBtn.disabled=false", 2000);
+    synth.cancel();
+    speakButton(correctWord);
+  });
+  readDefBtn.addEventListener("click", (e) => {
+    readDefBtn.disabled = true;
+    setTimeout("readDefBtn.disabled=false", 2000);
+    synth.cancel();
+    speakButton(wordDefinition);
+  });
   // speak(correctWord).onend = (event) => {
   //   setTimeout(()=>{speak(wordDefinition)}, event.elapsedTime+1000 );
   // };
@@ -169,11 +166,15 @@ inputField.addEventListener("input", function () {
     inputSpan.innerHTML = `The word contains only ${correctWord.length} letters`;
     inputSpan.classList.add("incorrect");
     inputField.classList.add("incorrect");
-  } else if (inputField.value.length <= correctWord.length) {
+  } else if (inputField.value.length <= correctWord.length && triesLeft > 0) {
     message.innerHTML = ``;
     inputSpan.classList.remove("incorrect");
     inputSpan.innerHTML = `Type the correctly spelt word here`;
     inputField.classList.remove("incorrect");
+  } else {
+    inputSpan.classList.remove("incorrect");
+    inputField.classList.remove("incorrect");
+    inputSpan.innerHTML = `The word is '${correctWord}' - please type it below to continue.`
   }
 });
 
@@ -181,11 +182,19 @@ initGame();
 
 const checkWord = () => {
   synth.cancel();
-
   let userWord = inputField.value.toLowerCase();
-  if (userWord !== correctWord.toLowerCase()) {
+  if (userWord === ""){return}
+  else if (userWord !== correctWord.toLowerCase()) {
     message.classList.add("incorrect");
-    inputSpan.innerHTML = `Not quite - please try again!`;
+    triesLeft--;
+    if (triesLeft > 1) {
+      inputSpan.innerHTML = `Not quite - please try again! You have ${triesLeft} guesses left.`;
+    } else if (triesLeft === 1) {
+      inputSpan.innerHTML = `Not quite - please try again! You have one guess left.`;
+    } else {
+      inputSpan.innerHTML = `The word is '${correctWord}' - please type it below to continue.`;
+    }
+
     inputField.classList.add("incorrect");
     inputSpan.classList.add("incorrect");
     inputField.value = "";
@@ -233,8 +242,6 @@ newWordBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);
 
 function processKey(e) {
-  // if (null == e)
-  //     e = window.e ;
   if (e.keyCode == 13) {
     checkBtn.click();
     return false;
