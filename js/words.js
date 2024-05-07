@@ -2926,79 +2926,79 @@ const words = [
   //   },
   {
     id: 449,
-    word: "he’ll",
+    word: "he'll",
     definition: "contraction meaning 'he will'.",
   },
 
   {
     id: 450,
-    word: "she’ll",
+    word: "she'll",
     definition: "contraction meaning 'she will'.",
   },
   {
     id: 451,
-    word: "aren’t",
+    word: "aren't",
     definition: "contraction meaning 'are not'.",
   },
   {
     id: 452,
-    word: "can’t",
+    word: "can't",
     definition: "contraction meaning 'cannot'.",
   },
   {
     id: 453,
-    word: "couldn’t",
+    word: "couldn't",
     definition: "contraction meaning 'could not'.",
   },
   {
     id: 454,
-    word: "didn’t",
+    word: "didn't",
     definition: "contraction meaning 'did not'.",
   },
   {
     id: 455,
-    word: "don’t",
+    word: "don't",
     definition: "contraction meaning 'do not'.",
   },
   {
     id: 456,
-    word: "doesn’t",
+    word: "doesn't",
     definition: "contraction meaning 'does not'.",
   },
   {
     id: 457,
-    word: "hadn’t",
+    word: "hadn't",
     definition: "contraction meaning 'had not'.",
   },
   {
     id: 458,
-    word: "haven’t",
+    word: "haven't",
     definition: "contraction meaning 'have not'.",
   },
   {
     id: 459,
-    word: "he’s",
+    word: "he's",
     definition: "contraction meaning 'he is'.",
   },
   {
     id: 460,
-    word: "he’d",
+    word: "he'd",
     definition: "contraction meaning 'he had' or 'he would'.",
   },
   {
     id: 461,
-    word: "here’s",
+    word: "here's",
     definition: "contraction meaning 'here is'.",
   },
   {
     id: 462,
-    word: "I’m",
+    word: "I'm",
     definition: "contraction meaning 'I am'.",
   },
 
   {
     id: 463,
-    word: "I’ve",
+    word: "I've",
     definition: "contraction meaning 'I have'.",
   },
 ];
