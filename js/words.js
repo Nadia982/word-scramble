@@ -3001,5 +3001,15 @@ const words = [
     word: "I've",
     definition: "contraction meaning 'I have'.",
   },
+  {
+    id: 464,
+    word: "I'll",
+    definition: "contraction meaning 'I will'.",
+  },
+  {
+    id: 465,
+    word: "isn't",
+    definition: "contraction meaning 'is not'.",
+  },
 ];
-//I'll, isn't, it is/it has, it'll, musn't, she is/she has, she'll, she'd, shouldn't, that's, there's, they're, they've, wasn't, we're, we've, we'll, we'd, weren't, what's, who's, who'll, won't, you're, you'll, you would/you had
+//it is/it has, it'll, musn't, she is/she has, she'll, she'd, shouldn't, that's, there's, they're, they've, wasn't, we're, we've, we'll, we'd, weren't, what's, who's, who'll, won't, you're, you'll, you would/you had
