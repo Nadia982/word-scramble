@@ -183,7 +183,7 @@ initGame();
 
 const checkWord = () => {
   synth.cancel();
-  let userWord = inputField.value.toLowerCase();
+  let userWord = inputField.value.toLowerCase().replace("’","'");
   if (userWord === ""){return}
   else if (userWord !== correctWord.toLowerCase()) {
     message.classList.add("incorrect");
