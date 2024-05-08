@@ -3019,5 +3019,31 @@ const words = [
     word: "it's",
     definition: "contraction meaning 'it is' or 'it has'.",
   },
+  {
+    id: 467,
+    word: "it'll",
+    definition: "contraction meaning 'it will'.",
+  },
+  {
+    id: 467,
+    word: "mustn't",
+    definition: "contraction meaning 'must not'.",
+  },
+  {
+    id: 468,
+    word: "she's",
+    definition: "contraction meaning 'she is' or 'she has'.",
+  },
+  {
+    id: 469,
+    word: "she'll",
+    definition: "contraction meaning 'she will'.",
+  },
+  {
+    id: 470,
+    word: "she'd",
+    definition: "contraction meaning 'she had' or 'she would'.",
+  },
 ];
-//it'll, musn't, she is/she has, she'll, she'd, shouldn't, that's, there's, they're, they've, wasn't, we're, we've, we'll, we'd, weren't, what's, who's, who'll, won't, you're, you'll, you would/you had
+//shouldn't, that's, there's, they're, they've, wasn't, 
+//we're, we've, we'll, we'd, weren't, what's, who's, who'll, won't, you're, you'll, you would/you had
