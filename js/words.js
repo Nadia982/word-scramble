@@ -2112,7 +2112,7 @@ const words = [
   //     definition:
   //       "noun. A type of fish with pink flesh that is often caught for food.",
   //     spelling_rule: 60,
-  //     proper: false,
+  //     caseSensitive: false,
   //   },
   //   {
   //     id: 328,
@@ -2120,7 +2120,7 @@ const words = [
   //     definition:
   //       "Proper noun. The second month of the year, which comes after January.",
   //     spelling_rule: 60,
-  //     proper: true,
+  //     caseSensitive: true,
   //   },
   //   {
   //     id: 329,
@@ -2128,7 +2128,7 @@ const words = [
   //     definition:
   //       "noun. A weapon with a long sharp metal blade, used in wars long ago.",
   //     spelling_rule: 61,
-  //     proper: false,
+  //     caseSensitive: false,
   //   },
   //   {
   //     id: 330,
@@ -2990,26 +2990,34 @@ const words = [
     word: "here's",
     definition: "contraction meaning 'here is'.",
   },
-  {
-    id: 462,
-    word: "I'm",
-    definition: "contraction meaning 'I am'.",
-  },
+  // {
+  //   id: 462,
+  //   word: "I'm",
+  //   definition: "contraction meaning 'I am'.",
+  //   caseSensitive: true,
+  // },
 
-  {
-    id: 463,
-    word: "I've",
-    definition: "contraction meaning 'I have'.",
-  },
-  {
-    id: 464,
-    word: "I'll",
-    definition: "contraction meaning 'I will'.",
-  },
+  // {
+  //   id: 463,
+  //   word: "I've",
+  //   definition: "contraction meaning 'I have'.",
+  //   caseSensitive: true,
+  // },
+  // {
+  //   id: 464,
+  //   word: "I'll",
+  //   definition: "contraction meaning 'I will'.",
+  //   caseSensitive: true,
+  // },
   {
     id: 465,
     word: "isn't",
     definition: "contraction meaning 'is not'.",
   },
+  {
+    id: 466,
+    word: "it's",
+    definition: "contraction meaning 'it is' or 'it has'.",
+  },
 ];
-//it is/it has, it'll, musn't, she is/she has, she'll, she'd, shouldn't, that's, there's, they're, they've, wasn't, we're, we've, we'll, we'd, weren't, what's, who's, who'll, won't, you're, you'll, you would/you had
+//it'll, musn't, she is/she has, she'll, she'd, shouldn't, that's, there's, they're, they've, wasn't, we're, we've, we'll, we'd, weren't, what's, who's, who'll, won't, you're, you'll, you would/you had

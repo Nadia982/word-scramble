@@ -28,6 +28,7 @@ let correctWord, timer, wordDefinition;
 let score = 0;
 let emoji = document.querySelector(".emoji");
 let triesLeft = 3;
+let userWord;
 
 //***************************** Speech synthesis ********************************** */
 //Initialise SpeechSynthesis API
@@ -183,7 +184,11 @@ initGame();
 
 const checkWord = () => {
   synth.cancel();
+  if(randomObj.caseSensitive === true) {
   let userWord = inputField.value.toLowerCase().replace("’","'");
+  } else {
+    let userWord = inputField.value.replace("’","'")
+  }
   if (userWord === ""){return}
   else if (userWord !== correctWord.toLowerCase()) {
     message.classList.add("incorrect");
