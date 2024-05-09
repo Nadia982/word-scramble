@@ -2924,11 +2924,11 @@ const words = [
         "possessive pronoun. Means 'belonging to us.'",
       spelling_rule: 61,
     },
-  {
-    id: 449,
-    word: "he'll",
-    definition: "contraction meaning 'he will'.",
-  },
+  // {
+  //   id: 449,
+  //   word: "he'll",
+  //   definition: "contraction meaning 'he will'.",
+  // },
 
   {
     id: 450,
