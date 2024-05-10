@@ -3044,6 +3044,17 @@ const words = [
     word: "she'd",
     definition: "contraction meaning 'she had' or 'she would'.",
   },
+  {
+    id: 471,
+    word: "shan't",
+    definition: "contraction meaning 'shall not'.",
+  },
+  {
+    id: 472,
+    word: "let's",
+    definition: "contraction meaning 'let us'.",
+  },
+
 ];
 //shouldn't, that's, there's, they're, they've, wasn't, 
 //we're, we've, we'll, we'd, weren't, what's, who's, who'll, won't, you're, you'll, you would/you had
