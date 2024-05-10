@@ -3054,7 +3054,47 @@ const words = [
     word: "let's",
     definition: "contraction meaning 'let us'.",
   },
+  {
+    id: 473,
+    word: "shouldn't",
+    definition: "contraction meaning 'should not'.",
+  },
+  {
+    id: 474,
+    word: "that's",
+    definition: "contraction meaning 'that is'.",
+  },
+  {
+    id: 475,
+    word: "there's",
+    definition: "contraction meaning 'there is'.",
+  },
+  {
+    id: 476,
+    word: "they're",
+    definition: "contraction meaning 'they are'.",
+  },
+  {
+    id: 477,
+    word: "they've",
+    definition: "contraction meaning 'they have'.",
+  },
+  {
+    id: 478,
+    word: "wasn't",
+    definition: "contraction meaning 'was not'.",
+  },
+  {
+    id: 479,
+    word: "we're",
+    definition: "contraction meaning 'we are'.",
+  },
+  {
+    id: 480,
+    word: "we've",
+    definition: "contraction meaning 'we have'.",
+  },
 
 ];
-//shouldn't, that's, there's, they're, they've, wasn't, 
-//we're, we've, we'll, we'd, weren't, what's, who's, who'll, won't, you're, you'll, you would/you had
+ 
+//we'll, we'd, weren't, what's, who's, who'll, won't, you're, you'll, you would/you had
