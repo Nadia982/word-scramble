@@ -3094,7 +3094,61 @@ const words = [
     word: "we've",
     definition: "contraction meaning 'we have'.",
   },
+  {
+    id: 481,
+    word: "we'll",
+    definition: "contraction meaning 'we will'.",
+  },
+  {
+    id: 482,
+    word: "we'd",
+    definition: "contraction meaning 'we would' or 'we had'.",
+  },
+  {
+    id: 483,
+    word: "weren't",
+    definition: "contraction meaning 'were not'.",
+  },
+    {
+    id: 484,
+    word: "what's",
+    definition: "contraction meaning 'what is' or 'what has'.",
+  },
+  {
+    id: 485,
+    word: "who's",
+    definition: "contraction meaning 'who is' or 'who has'.",
+  },
+  {
+    id: 486,
+    word: "who'll",
+    definition: "contraction meaning 'who will'.",
+  },
+  {
+    id: 487,
+    word: "won't",
+    definition: "contraction meaning 'will not'.",
+  },
 
-];
+  {
+    id: 488,
+    word: "wouldn't",
+    definition: "contraction meaning 'would not'.",
+  },
+  {
+    id: 489,
+    word: "you're",
+    definition: "contraction meaning 'you are'.",
+  },
+  {
+    id: 490,
+    word: "you'll",
+    definition: "contraction meaning 'you will'.",
+  },
+  {
+    id: 491,
+    word: "you'd",
+    definition: "contraction meaning 'you would' or 'you had'.",
+  },
+  ];
  
-//we'll, we'd, weren't, what's, who's, who'll, won't, you're, you'll, you would/you had
