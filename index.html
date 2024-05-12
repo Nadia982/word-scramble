@@ -33,21 +33,25 @@
         </div>
         <div class="slider-container">
           <div class="slider-inner-container">
-          <label class="volume-label" for="volume">Volume: </label><span class="slider-value">0.05</span>
+          <label class="volume-label" for="volume">Volume: </label><span class="slider-value">25%</span>
           </div>
+          <div class="horizontal-volume-container">
+          <!-- <button class="volume-control decrease-volume">-</button> -->
           <div class="slider">
             <input
               type="range"
               id="volume"
               min="0"
-              max="0.2"
-              value="0.05"
+              max="0.4"
+              value="0.1"
               step="0.05"
               class="volume-input"
             />
-            <progress min="0" max="0.2" value="0.05"></progress>
+            <progress min="0" max="0.4" value="0.1"></progress>
+            
           </div>
-          
+          <!-- <button class="volume-control increase-volume">+</button> -->
+        </div>
         </div>
         
         <div class="scrambled-word-container">

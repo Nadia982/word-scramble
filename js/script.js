@@ -1,11 +1,15 @@
+let maxVolume = 0.4;
+let stepSize = 0.05;
 const slider = document.querySelector(".volume-input");
+const progressBar = document.querySelector(".slider progress");
+let sliderValue = document.querySelector(".slider-value");
 window.onload = function () {
   slider.oninput = function () {
-    let progressBar = document.querySelector(".slider progress");
     progressBar.value = slider.value;
-    let sliderValue = document.querySelector(".slider-value");
-    sliderValue.innerText = slider.value;
+    sliderValue.innerText = `${Math.round(slider.value /maxVolume *100)}%`;
   };
+
+  
 };
 
 const scrambledWordText = document.querySelector(".word"),
@@ -19,7 +23,9 @@ const scrambledWordText = document.querySelector(".word"),
   body = document.querySelector("body"),
   checkBtn = document.querySelector(".check-word"),
   form = document.getElementById("form"),
-  homophone = document.querySelector(".homophone");
+  homophone = document.querySelector(".homophone"), 
+  decreaseVolume = document.querySelector(".decrease-volume"),
+  increaseVolume = document.querySelector(".increase-volume");
 inputSpan = document.querySelector(".input-span");
 let message = document.querySelector(".message");
 let resultsSoFar = document.querySelector(".results-so-far");
@@ -63,8 +69,22 @@ const speak = (whatToSay, whatToSayNext) => {
       speak(whatToSayNext);
     };
 
-    speakText.volume = slider.value;
+     speakText.volume = slider.value;
     speakText.rate = 0.8;
+
+  //   decreaseVolume.addEventListener("click", function(e) {
+  //     slider.value -= 0.05;
+  //     progressBar.value = slider.value;
+  //   sliderValue.innerText = `${Math.round(slider.value /maxVolume *100)}%`;
+  //   console.log(slider.value);  
+  // })
+    
+  //   increaseVolume.addEventListener("click", function(e) {
+  //     slider.value += 0.05;
+  //     progressBar.value = slider.value;
+  //   sliderValue.innerText = `${Math.round(slider.value /maxVolume *100)}%`;
+  //   console.log(slider.value);  
+  // })
 
     //Speak
     slider.addEventListener("change", (e) => {
