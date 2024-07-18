@@ -2294,7 +2294,7 @@ const words = [
       id: 355,
       word: "past",
       definition:
-        "Noun or adjective referring to a previous time (e.g. In the past) or preposition or adverb showing place (e.g. he walked past me)",
+        "Noun or adjective referring to a previous time, or preposition or adverb showing place (e.g. he walked ____ me)",
       spelling_rule: 61,
     },
     {
